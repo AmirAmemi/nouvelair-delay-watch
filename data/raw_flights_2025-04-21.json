@@ -1,0 +1,5129 @@
+{
+    "pagination": {
+        "limit": 100,
+        "offset": 0,
+        "count": 100,
+        "total": 119
+    },
+    "data": [
+        {
+            "flight_date": "2025-04-22",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pulkovo",
+                "timezone": "Europe/Moscow",
+                "iata": "LED",
+                "icao": "ULLI",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-04-22T00:55:00+00:00",
+                "estimated": "2025-04-22T00:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-22T03:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "809",
+                "iata": "BJ809",
+                "icao": "LBT809",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Istanbul Airport",
+                "timezone": "Europe/Istanbul",
+                "iata": "IST",
+                "icao": "LTFM",
+                "terminal": null,
+                "gate": "A6B",
+                "delay": 40,
+                "scheduled": "2025-04-21T17:35:00+00:00",
+                "estimated": "2025-04-21T17:35:00+00:00",
+                "actual": "2025-04-21T18:14:00+00:00",
+                "estimated_runway": "2025-04-21T18:14:00+00:00",
+                "actual_runway": "2025-04-21T18:14:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T18:35:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T18:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "641",
+                "iata": "BJ641",
+                "icao": "LBT641",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INU",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B4"
+            },
+            "live": {
+                "updated": "2025-04-21T17:32:08+00:00",
+                "latitude": 36.7462,
+                "longitude": 10.5418,
+                "altitude": 1249.68,
+                "direction": 293,
+                "speed_horizontal": 409.292,
+                "speed_vertical": 0,
+                "is_ground": false
+            }
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 18,
+                "scheduled": "2025-04-21T06:00:00+00:00",
+                "estimated": "2025-04-21T06:00:00+00:00",
+                "actual": "2025-04-21T06:18:00+00:00",
+                "estimated_runway": "2025-04-21T06:18:00+00:00",
+                "actual_runway": "2025-04-21T06:18:00+00:00"
+            },
+            "arrival": {
+                "airport": "Blagnac",
+                "timezone": "Europe/Paris",
+                "iata": "TLS",
+                "icao": "LFBO",
+                "terminal": "1",
+                "gate": "4",
+                "baggage": "7",
+                "scheduled": "2025-04-21T09:00:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T08:53:00+00:00",
+                "actual": "2025-04-21T08:54:00+00:00",
+                "estimated_runway": "2025-04-21T08:54:00+00:00",
+                "actual_runway": "2025-04-21T08:54:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "714",
+                "iata": "BJ714",
+                "icao": "LBT714",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INE",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-04-21T10:45:00+00:00",
+                "estimated": "2025-04-21T10:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Euroairport Swiss",
+                "timezone": "Europe/Zurich",
+                "iata": "BSL",
+                "icao": "LFSB",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "3",
+                "scheduled": "2025-04-21T14:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "134",
+                "iata": "BJ134",
+                "icao": "LBT134",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "LZ-EAD",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "45210D"
+            },
+            "live": {
+                "updated": "2025-04-21T12:28:25+00:00",
+                "latitude": 47.2973,
+                "longitude": 7.6907,
+                "altitude": 2423.16,
+                "direction": 41,
+                "speed_horizontal": 440.776,
+                "speed_vertical": 0,
+                "is_ground": false
+            }
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": null,
+                "gate": null,
+                "delay": 18,
+                "scheduled": "2025-04-21T10:00:00+00:00",
+                "estimated": "2025-04-21T10:00:00+00:00",
+                "actual": "2025-04-21T10:18:00+00:00",
+                "estimated_runway": "2025-04-21T10:18:00+00:00",
+                "actual_runway": "2025-04-21T10:18:00+00:00"
+            },
+            "arrival": {
+                "airport": "Brussels Airport",
+                "timezone": "Europe/Brussels",
+                "iata": "BRU",
+                "icao": "EBBR",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T13:50:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T13:39:00+00:00",
+                "actual": "2025-04-21T13:42:00+00:00",
+                "estimated_runway": "2025-04-21T13:42:00+00:00",
+                "actual_runway": "2025-04-21T13:42:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "362",
+                "iata": "BJ362",
+                "icao": "LBT362",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INP",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1AF"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": "7",
+                "delay": 16,
+                "scheduled": "2025-04-21T11:35:00+00:00",
+                "estimated": "2025-04-21T11:35:00+00:00",
+                "actual": "2025-04-21T11:50:00+00:00",
+                "estimated_runway": "2025-04-21T11:50:00+00:00",
+                "actual_runway": "2025-04-21T11:50:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T13:05:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T12:59:00+00:00",
+                "actual": "2025-04-21T13:02:00+00:00",
+                "estimated_runway": "2025-04-21T13:02:00+00:00",
+                "actual_runway": "2025-04-21T13:02:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "511",
+                "iata": "BJ511",
+                "icao": "LBT511",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INL",
+                "iata": "A20N",
+                "icao": "A20N",
+                "icao24": "02A1AB"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": "4",
+                "delay": 13,
+                "scheduled": "2025-04-21T11:35:00+00:00",
+                "estimated": "2025-04-21T11:35:00+00:00",
+                "actual": "2025-04-21T11:47:00+00:00",
+                "estimated_runway": "2025-04-21T11:47:00+00:00",
+                "actual_runway": "2025-04-21T11:47:00+00:00"
+            },
+            "arrival": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T13:10:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T13:10:00+00:00",
+                "actual": "2025-04-21T13:04:00+00:00",
+                "estimated_runway": "2025-04-21T13:04:00+00:00",
+                "actual_runway": "2025-04-21T13:04:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "569",
+                "iata": "BJ569",
+                "icao": "LBT569",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-ING",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A6"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Geneve-cointrin",
+                "timezone": "Europe/Zurich",
+                "iata": "GVA",
+                "icao": "LSGG",
+                "terminal": "1",
+                "gate": "B31",
+                "delay": 17,
+                "scheduled": "2025-04-21T10:45:00+00:00",
+                "estimated": "2025-04-21T10:45:00+00:00",
+                "actual": "2025-04-21T11:01:00+00:00",
+                "estimated_runway": "2025-04-21T11:01:00+00:00",
+                "actual_runway": "2025-04-21T11:01:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T11:40:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T11:37:00+00:00",
+                "actual": "2025-04-21T11:37:00+00:00",
+                "estimated_runway": "2025-04-21T11:37:00+00:00",
+                "actual_runway": "2025-04-21T11:37:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "185",
+                "iata": "BJ185",
+                "icao": "LBT185",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INT",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2025-04-21T06:00:00+00:00",
+                "estimated": "2025-04-21T06:00:00+00:00",
+                "actual": "2025-04-21T06:10:00+00:00",
+                "estimated_runway": "2025-04-21T06:10:00+00:00",
+                "actual_runway": "2025-04-21T06:10:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cote D'azur International Airport",
+                "timezone": "Europe/Paris",
+                "iata": "NCE",
+                "icao": "LFMN",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "5",
+                "scheduled": "2025-04-21T08:45:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T08:31:00+00:00",
+                "actual": "2025-04-21T08:33:00+00:00",
+                "estimated_runway": "2025-04-21T08:33:00+00:00",
+                "actual_runway": "2025-04-21T08:33:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "594",
+                "iata": "BJ594",
+                "icao": "LBT594",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INH",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A7"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "diverted",
+            "departure": {
+                "airport": "Frankfurt International Airport",
+                "timezone": "Europe/Berlin",
+                "iata": "FRA",
+                "icao": "EDDF",
+                "terminal": "2",
+                "gate": "D6",
+                "delay": 37,
+                "scheduled": "2025-04-21T10:40:00+00:00",
+                "estimated": "2025-04-21T10:40:00+00:00",
+                "actual": "2025-04-21T11:16:00+00:00",
+                "estimated_runway": "2025-04-21T11:16:00+00:00",
+                "actual_runway": "2025-04-21T11:16:00+00:00"
+            },
+            "arrival": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T12:40:00+00:00",
+                "delay": 10,
+                "estimated": "2025-04-21T12:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "2047",
+                "iata": "BJ2047",
+                "icao": "LBT2047",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INQ",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B0"
+            },
+            "live": {
+                "updated": "2025-04-21T11:45:42+00:00",
+                "latitude": 35.761,
+                "longitude": 10.7573,
+                "altitude": 0,
+                "direction": 343,
+                "speed_horizontal": 0,
+                "speed_vertical": 0,
+                "is_ground": true
+            }
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2025-04-21T07:00:00+00:00",
+                "estimated": "2025-04-21T07:00:00+00:00",
+                "actual": "2025-04-21T07:10:00+00:00",
+                "estimated_runway": "2025-04-21T07:10:00+00:00",
+                "actual_runway": "2025-04-21T07:10:00+00:00"
+            },
+            "arrival": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "02",
+                "scheduled": "2025-04-21T10:45:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T10:20:00+00:00",
+                "actual": "2025-04-21T10:26:00+00:00",
+                "estimated_runway": "2025-04-21T10:26:00+00:00",
+                "actual_runway": "2025-04-21T10:26:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "568",
+                "iata": "BJ568",
+                "icao": "LBT568",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-ING",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A6"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 26,
+                "scheduled": "2025-04-21T06:45:00+00:00",
+                "estimated": "2025-04-21T06:45:00+00:00",
+                "actual": "2025-04-21T07:10:00+00:00",
+                "estimated_runway": "2025-04-21T07:10:00+00:00",
+                "actual_runway": "2025-04-21T07:10:00+00:00"
+            },
+            "arrival": {
+                "airport": "Geneve-cointrin",
+                "timezone": "Europe/Zurich",
+                "iata": "GVA",
+                "icao": "LSGG",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "2",
+                "scheduled": "2025-04-21T09:45:00+00:00",
+                "delay": 1,
+                "estimated": "2025-04-21T09:45:00+00:00",
+                "actual": "2025-04-21T09:46:00+00:00",
+                "estimated_runway": "2025-04-21T09:46:00+00:00",
+                "actual_runway": "2025-04-21T09:46:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "184",
+                "iata": "BJ184",
+                "icao": "LBT184",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INT",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-04-21T04:25:00+00:00",
+                "estimated": "2025-04-21T04:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Houari Boumediene",
+                "timezone": "Africa/Algiers",
+                "iata": "ALG",
+                "icao": "DAAG",
+                "terminal": "I",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T06:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "104",
+                "iata": "BJ104",
+                "icao": "LBT104",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Houari Boumediene",
+                "timezone": "Africa/Algiers",
+                "iata": "ALG",
+                "icao": "DAAG",
+                "terminal": "I",
+                "gate": null,
+                "delay": 600,
+                "scheduled": "2025-04-21T07:00:00+00:00",
+                "estimated": "2025-04-21T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T08:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "106",
+                "iata": "BJ106",
+                "icao": "LBT106",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 21,
+                "scheduled": "2025-04-21T06:00:00+00:00",
+                "estimated": "2025-04-21T06:00:00+00:00",
+                "actual": "2025-04-21T06:21:00+00:00",
+                "estimated_runway": "2025-04-21T06:21:00+00:00",
+                "actual_runway": "2025-04-21T06:21:00+00:00"
+            },
+            "arrival": {
+                "airport": "D\u00fcsseldorf International Airport",
+                "timezone": "Europe/Berlin",
+                "iata": "DUS",
+                "icao": "EDDL",
+                "terminal": "M",
+                "gate": "C40",
+                "baggage": "12",
+                "scheduled": "2025-04-21T09:40:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T09:35:00+00:00",
+                "actual": "2025-04-21T09:37:00+00:00",
+                "estimated_runway": "2025-04-21T09:37:00+00:00",
+                "actual_runway": "2025-04-21T09:37:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "204",
+                "iata": "BJ204",
+                "icao": "LBT204",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INM",
+                "iata": "A20N",
+                "icao": "A20N",
+                "icao24": "02A1AC"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": null,
+                "gate": null,
+                "delay": 7,
+                "scheduled": "2025-04-21T05:30:00+00:00",
+                "estimated": "2025-04-21T05:30:00+00:00",
+                "actual": "2025-04-21T05:36:00+00:00",
+                "estimated_runway": "2025-04-21T05:36:00+00:00",
+                "actual_runway": "2025-04-21T05:36:00+00:00"
+            },
+            "arrival": {
+                "airport": "Frankfurt International Airport",
+                "timezone": "Europe/Berlin",
+                "iata": "FRA",
+                "icao": "EDDF",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "52",
+                "scheduled": "2025-04-21T09:40:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T09:18:00+00:00",
+                "actual": "2025-04-21T09:17:00+00:00",
+                "estimated_runway": "2025-04-21T09:17:00+00:00",
+                "actual_runway": "2025-04-21T09:17:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "2046",
+                "iata": "BJ2046",
+                "icao": "LBT2046",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INQ",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B0"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 31,
+                "scheduled": "2025-04-21T06:30:00+00:00",
+                "estimated": "2025-04-21T06:30:00+00:00",
+                "actual": "2025-04-21T07:00:00+00:00",
+                "estimated_runway": "2025-04-21T07:00:00+00:00",
+                "actual_runway": "2025-04-21T07:00:00+00:00"
+            },
+            "arrival": {
+                "airport": "Brussels Airport",
+                "timezone": "Europe/Brussels",
+                "iata": "BRU",
+                "icao": "EBBR",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T10:15:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T10:17:00+00:00",
+                "actual": "2025-04-21T10:11:00+00:00",
+                "estimated_runway": "2025-04-21T10:11:00+00:00",
+                "actual_runway": "2025-04-21T10:11:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "396",
+                "iata": "BJ396",
+                "icao": "LBT396",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INC",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A2"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 23,
+                "scheduled": "2025-04-21T07:00:00+00:00",
+                "estimated": "2025-04-21T07:00:00+00:00",
+                "actual": "2025-04-21T07:23:00+00:00",
+                "estimated_runway": "2025-04-21T07:23:00+00:00",
+                "actual_runway": "2025-04-21T07:23:00+00:00"
+            },
+            "arrival": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "03",
+                "scheduled": "2025-04-21T10:35:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T10:31:00+00:00",
+                "actual": "2025-04-21T10:30:00+00:00",
+                "estimated_runway": "2025-04-21T10:30:00+00:00",
+                "actual_runway": "2025-04-21T10:30:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "510",
+                "iata": "BJ510",
+                "icao": "LBT510",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INL",
+                "iata": "A20N",
+                "icao": "A20N",
+                "icao24": "02A1AB"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 20,
+                "scheduled": "2025-04-21T06:15:00+00:00",
+                "estimated": "2025-04-21T06:15:00+00:00",
+                "actual": "2025-04-21T06:34:00+00:00",
+                "estimated_runway": "2025-04-21T06:34:00+00:00",
+                "actual_runway": "2025-04-21T06:34:00+00:00"
+            },
+            "arrival": {
+                "airport": "Milano Malpensa",
+                "timezone": "Europe/Rome",
+                "iata": "MXP",
+                "icao": "LIMC",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "07",
+                "scheduled": "2025-04-21T09:05:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T08:53:00+00:00",
+                "actual": "2025-04-21T08:55:00+00:00",
+                "estimated_runway": "2025-04-21T08:55:00+00:00",
+                "actual_runway": "2025-04-21T08:55:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "634",
+                "iata": "BJ634",
+                "icao": "LBT634",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INU",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Constantine Mohamed Boudiaf International Airport",
+                "timezone": "Africa/Algiers",
+                "iata": "CZL",
+                "icao": "DABC",
+                "terminal": null,
+                "gate": null,
+                "delay": 120,
+                "scheduled": "2025-04-21T02:20:00+00:00",
+                "estimated": "2025-04-21T02:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Houari Boumediene",
+                "timezone": "Africa/Algiers",
+                "iata": "ALG",
+                "icao": "DAAG",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T03:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "4545",
+                "iata": "BJ4545",
+                "icao": "LBT4545",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "active",
+            "departure": {
+                "airport": "St-Exup\u00e9ry",
+                "timezone": "Europe/Paris",
+                "iata": "LYS",
+                "icao": "LFLL",
+                "terminal": "T1",
+                "gate": null,
+                "delay": 36,
+                "scheduled": "2025-04-21T17:30:00+00:00",
+                "estimated": "2025-04-21T17:30:00+00:00",
+                "actual": "2025-04-21T18:06:00+00:00",
+                "estimated_runway": "2025-04-21T18:06:00+00:00",
+                "actual_runway": "2025-04-21T18:06:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T18:25:00+00:00",
+                "delay": 11,
+                "estimated": "2025-04-21T18:36:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "599",
+                "iata": "BJ599",
+                "icao": "LBT599",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INT",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B3"
+            },
+            "live": {
+                "updated": "2025-04-21T17:32:08+00:00",
+                "latitude": 37.0266,
+                "longitude": 10.6072,
+                "altitude": 1424.94,
+                "direction": 133,
+                "speed_horizontal": 438.924,
+                "speed_vertical": 0,
+                "is_ground": false
+            }
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Constantine Mohamed Boudiaf International Airport",
+                "timezone": "Africa/Algiers",
+                "iata": "CZL",
+                "icao": "DABC",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-04-21T02:20:00+00:00",
+                "estimated": "2025-04-21T02:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": "T1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T03:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "4545",
+                "iata": "BJ4545",
+                "icao": "LBT4545",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "St-Exup\u00e9ry",
+                "timezone": "Europe/Paris",
+                "iata": "LYS",
+                "icao": "LFLL",
+                "terminal": "T1",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2025-04-21T20:25:00+00:00",
+                "estimated": "2025-04-21T20:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T21:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "573",
+                "iata": "BJ573",
+                "icao": "LBT573",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": null,
+                "gate": null,
+                "delay": 4,
+                "scheduled": "2025-04-21T15:30:00+00:00",
+                "estimated": "2025-04-21T15:30:00+00:00",
+                "actual": "2025-04-21T15:33:00+00:00",
+                "estimated_runway": "2025-04-21T15:33:00+00:00",
+                "actual_runway": "2025-04-21T15:33:00+00:00"
+            },
+            "arrival": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "01",
+                "scheduled": "2025-04-21T19:15:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T18:51:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "542",
+                "iata": "BJ542",
+                "icao": "LBT542",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-ING",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A6"
+            },
+            "live": {
+                "updated": "2025-04-21T17:05:34+00:00",
+                "latitude": 48.9996,
+                "longitude": 2.5554,
+                "altitude": 0,
+                "direction": 343,
+                "speed_horizontal": 0,
+                "speed_vertical": 0,
+                "is_ground": true
+            }
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": null,
+                "gate": null,
+                "delay": 1,
+                "scheduled": "2025-04-21T15:00:00+00:00",
+                "estimated": "2025-04-21T15:00:00+00:00",
+                "actual": "2025-04-21T15:00:00+00:00",
+                "estimated_runway": "2025-04-21T15:00:00+00:00",
+                "actual_runway": "2025-04-21T15:00:00+00:00"
+            },
+            "arrival": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "01",
+                "scheduled": "2025-04-21T19:05:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T18:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "508",
+                "iata": "BJ508",
+                "icao": "LBT508",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INF",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A5"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Mitiga",
+                "timezone": "Africa/Tripoli",
+                "iata": "MJI",
+                "icao": "HLLM",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2025-04-21T18:50:00+00:00",
+                "estimated": "2025-04-21T18:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Leonardo Da Vinci (Fiumicino)",
+                "timezone": "Europe/Rome",
+                "iata": "FCO",
+                "icao": "LIRF",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T20:26:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": null,
+                "iata": "BJ",
+                "icao": "LBT",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "D\u00fcsseldorf International Airport",
+                "timezone": "Europe/Berlin",
+                "iata": "DUS",
+                "icao": "EDDL",
+                "terminal": null,
+                "gate": "148",
+                "delay": 18,
+                "scheduled": "2025-04-21T10:40:00+00:00",
+                "estimated": "2025-04-21T10:40:00+00:00",
+                "actual": "2025-04-21T10:57:00+00:00",
+                "estimated_runway": "2025-04-21T10:57:00+00:00",
+                "actual_runway": "2025-04-21T10:57:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T12:15:00+00:00",
+                "delay": 1,
+                "estimated": "2025-04-21T12:12:00+00:00",
+                "actual": "2025-04-21T12:16:00+00:00",
+                "estimated_runway": "2025-04-21T12:16:00+00:00",
+                "actual_runway": "2025-04-21T12:16:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "205",
+                "iata": "BJ205",
+                "icao": "LBT205",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INM",
+                "iata": "A20N",
+                "icao": "A20N",
+                "icao24": "02A1AC"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Marseille Provence Airport",
+                "timezone": "Europe/Paris",
+                "iata": "MRS",
+                "icao": "LFML",
+                "terminal": "1",
+                "gate": null,
+                "delay": 35,
+                "scheduled": "2025-04-21T22:30:00+00:00",
+                "estimated": "2025-04-21T22:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T23:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "517",
+                "iata": "BJ517",
+                "icao": "LBT517",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-04-21T17:30:00+00:00",
+                "estimated": "2025-04-21T17:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pulkovo",
+                "timezone": "Europe/Moscow",
+                "iata": "LED",
+                "icao": "ULLI",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T23:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "808",
+                "iata": "BJ808",
+                "icao": "LBT808",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Cote D'azur International Airport",
+                "timezone": "Europe/Paris",
+                "iata": "NCE",
+                "icao": "LFMN",
+                "terminal": "1",
+                "gate": "C",
+                "delay": 12,
+                "scheduled": "2025-04-21T09:35:00+00:00",
+                "estimated": "2025-04-21T09:35:00+00:00",
+                "actual": "2025-04-21T09:46:00+00:00",
+                "estimated_runway": "2025-04-21T09:46:00+00:00",
+                "actual_runway": "2025-04-21T09:46:00+00:00"
+            },
+            "arrival": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T10:15:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T10:08:00+00:00",
+                "actual": "2025-04-21T10:09:00+00:00",
+                "estimated_runway": "2025-04-21T10:09:00+00:00",
+                "actual_runway": "2025-04-21T10:09:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "595",
+                "iata": "BJ595",
+                "icao": "LBT595",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INH",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A7"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Houari Boumediene",
+                "timezone": "Africa/Algiers",
+                "iata": "ALG",
+                "icao": "DAAG",
+                "terminal": "4",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2025-04-21T19:05:00+00:00",
+                "estimated": "2025-04-21T19:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Istanbul Airport",
+                "timezone": "Europe/Istanbul",
+                "iata": "IST",
+                "icao": "LTFM",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-22T00:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "3014",
+                "iata": "BJ3014",
+                "icao": "LBT3014",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 90,
+                "scheduled": "2025-04-21T12:30:00+00:00",
+                "estimated": "2025-04-21T12:30:00+00:00",
+                "actual": "2025-04-21T14:24:00+00:00",
+                "estimated_runway": "2025-04-21T14:24:00+00:00",
+                "actual_runway": "2025-04-21T14:24:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cote D'azur International Airport",
+                "timezone": "Europe/Paris",
+                "iata": "NCE",
+                "icao": "LFMN",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "6",
+                "scheduled": "2025-04-21T15:05:00+00:00",
+                "delay": 93,
+                "estimated": "2025-04-21T16:38:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "586",
+                "iata": "BJ586",
+                "icao": "LBT586",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INC",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A2"
+            },
+            "live": {
+                "updated": "2025-04-21T14:50:47+00:00",
+                "latitude": 43.6643,
+                "longitude": 7.2122,
+                "altitude": 0,
+                "direction": 343,
+                "speed_horizontal": 1.852,
+                "speed_vertical": 0,
+                "is_ground": true
+            }
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 41,
+                "scheduled": "2025-04-21T13:05:00+00:00",
+                "estimated": "2025-04-21T13:05:00+00:00",
+                "actual": "2025-04-21T13:46:00+00:00",
+                "estimated_runway": "2025-04-21T13:46:00+00:00",
+                "actual_runway": "2025-04-21T13:46:00+00:00"
+            },
+            "arrival": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "02",
+                "scheduled": "2025-04-21T16:40:00+00:00",
+                "delay": 11,
+                "estimated": "2025-04-21T16:47:00+00:00",
+                "actual": "2025-04-21T16:51:00+00:00",
+                "estimated_runway": "2025-04-21T16:51:00+00:00",
+                "actual_runway": "2025-04-21T16:51:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "730",
+                "iata": "BJ730",
+                "icao": "LBT730",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INM",
+                "iata": "A20N",
+                "icao": "A20N",
+                "icao24": "02A1AC"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Guglielmo Marconi",
+                "timezone": "Europe/Rome",
+                "iata": "BLQ",
+                "icao": "LIPE",
+                "terminal": null,
+                "gate": "A18",
+                "delay": 20,
+                "scheduled": "2025-04-21T23:00:00+00:00",
+                "estimated": "2025-04-21T23:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T23:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "613",
+                "iata": "BJ613",
+                "icao": "LBT613",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": "5",
+                "delay": 37,
+                "scheduled": "2025-04-21T17:40:00+00:00",
+                "estimated": "2025-04-21T17:40:00+00:00",
+                "actual": "2025-04-21T18:16:00+00:00",
+                "estimated_runway": "2025-04-21T18:16:00+00:00",
+                "actual_runway": "2025-04-21T18:16:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T19:10:00+00:00",
+                "delay": 6,
+                "estimated": "2025-04-21T19:16:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "731",
+                "iata": "BJ731",
+                "icao": "LBT731",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INM",
+                "iata": "A20N",
+                "icao": "A20N",
+                "icao24": "02A1AC"
+            },
+            "live": {
+                "updated": "2025-04-21T17:32:16+00:00",
+                "latitude": 41.1901,
+                "longitude": 8.1309,
+                "altitude": 11277.6,
+                "direction": 151,
+                "speed_horizontal": 875.996,
+                "speed_vertical": 0,
+                "is_ground": false
+            }
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "delay": 22,
+                "scheduled": "2025-04-21T22:05:00+00:00",
+                "estimated": "2025-04-21T22:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T23:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "521",
+                "iata": "BJ521",
+                "icao": "LBT521",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "delay": 2,
+                "scheduled": "2025-04-21T20:05:00+00:00",
+                "estimated": "2025-04-21T20:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T21:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "509",
+                "iata": "BJ509",
+                "icao": "LBT509",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 33,
+                "scheduled": "2025-04-21T09:30:00+00:00",
+                "estimated": "2025-04-21T09:30:00+00:00",
+                "actual": "2025-04-21T10:02:00+00:00",
+                "estimated_runway": "2025-04-21T10:02:00+00:00",
+                "actual_runway": "2025-04-21T10:02:00+00:00"
+            },
+            "arrival": {
+                "airport": "Houari Boumediene",
+                "timezone": "Africa/Algiers",
+                "iata": "ALG",
+                "icao": "DAAG",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T10:50:00+00:00",
+                "delay": 15,
+                "estimated": "2025-04-21T11:04:00+00:00",
+                "actual": "2025-04-21T11:05:00+00:00",
+                "estimated_runway": "2025-04-21T11:05:00+00:00",
+                "actual_runway": "2025-04-21T11:05:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "4001",
+                "iata": "BJ4001",
+                "icao": "LBT4001",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "delay": 22,
+                "scheduled": "2025-04-21T20:15:00+00:00",
+                "estimated": "2025-04-21T20:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T21:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "543",
+                "iata": "BJ543",
+                "icao": "LBT543",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Cote D'azur International Airport",
+                "timezone": "Europe/Paris",
+                "iata": "NCE",
+                "icao": "LFMN",
+                "terminal": "1",
+                "gate": "A",
+                "delay": 139,
+                "scheduled": "2025-04-21T15:55:00+00:00",
+                "estimated": "2025-04-21T15:55:00+00:00",
+                "actual": "2025-04-21T18:14:00+00:00",
+                "estimated_runway": "2025-04-21T18:14:00+00:00",
+                "actual_runway": "2025-04-21T18:14:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T16:30:00+00:00",
+                "delay": 117,
+                "estimated": "2025-04-21T18:27:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "587",
+                "iata": "BJ587",
+                "icao": "LBT587",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INC",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A2"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Blagnac",
+                "timezone": "Europe/Paris",
+                "iata": "TLS",
+                "icao": "LFBO",
+                "terminal": null,
+                "gate": "A05",
+                "delay": 37,
+                "scheduled": "2025-04-21T09:50:00+00:00",
+                "estimated": "2025-04-21T09:50:00+00:00",
+                "actual": "2025-04-21T10:27:00+00:00",
+                "estimated_runway": "2025-04-21T10:27:00+00:00",
+                "actual_runway": "2025-04-21T10:27:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T10:45:00+00:00",
+                "delay": 21,
+                "estimated": "2025-04-21T11:04:00+00:00",
+                "actual": "2025-04-21T11:06:00+00:00",
+                "estimated_runway": "2025-04-21T11:06:00+00:00",
+                "actual_runway": "2025-04-21T11:06:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "715",
+                "iata": "BJ715",
+                "icao": "LBT715",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INE",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": null,
+                "gate": null,
+                "delay": 15,
+                "scheduled": "2025-04-21T16:30:00+00:00",
+                "estimated": "2025-04-21T16:30:00+00:00",
+                "actual": "2025-04-21T16:44:00+00:00",
+                "estimated_runway": "2025-04-21T16:44:00+00:00",
+                "actual_runway": "2025-04-21T16:44:00+00:00"
+            },
+            "arrival": {
+                "airport": "St-Exup\u00e9ry",
+                "timezone": "Europe/Paris",
+                "iata": "LYS",
+                "icao": "LFLL",
+                "terminal": "T1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T19:35:00+00:00",
+                "delay": 14,
+                "estimated": "2025-04-21T19:29:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "572",
+                "iata": "BJ572",
+                "icao": "LBT572",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INH",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A7"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Berlin Brandenburg Airport",
+                "timezone": "+1",
+                "iata": "BER",
+                "icao": "EDDB",
+                "terminal": "1",
+                "gate": "C17",
+                "delay": 63,
+                "scheduled": "2025-04-21T16:20:00+00:00",
+                "estimated": "2025-04-21T16:20:00+00:00",
+                "actual": "2025-04-21T17:22:00+00:00",
+                "estimated_runway": "2025-04-21T17:22:00+00:00",
+                "actual_runway": "2025-04-21T17:22:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T18:05:00+00:00",
+                "delay": 51,
+                "estimated": "2025-04-21T18:56:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "233",
+                "iata": "BJ233",
+                "icao": "LBT233",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INE",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A4"
+            },
+            "live": {
+                "updated": "2025-04-21T17:32:08+00:00",
+                "latitude": 38.1661,
+                "longitude": 10.3946,
+                "altitude": 6987.54,
+                "direction": 177,
+                "speed_horizontal": 740.8,
+                "speed_vertical": 0,
+                "is_ground": false
+            }
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 25,
+                "scheduled": "2025-04-21T19:15:00+00:00",
+                "estimated": "2025-04-21T19:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Guglielmo Marconi",
+                "timezone": "Europe/Rome",
+                "iata": "BLQ",
+                "icao": "LIPE",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T22:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "612",
+                "iata": "BJ612",
+                "icao": "LBT612",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 40,
+                "scheduled": "2025-04-21T19:00:00+00:00",
+                "estimated": "2025-04-21T19:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Marseille Provence Airport",
+                "timezone": "Europe/Paris",
+                "iata": "MRS",
+                "icao": "LFML",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "2",
+                "scheduled": "2025-04-21T21:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "516",
+                "iata": "BJ516",
+                "icao": "LBT516",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 43,
+                "scheduled": "2025-04-21T13:45:00+00:00",
+                "estimated": "2025-04-21T13:45:00+00:00",
+                "actual": "2025-04-21T14:28:00+00:00",
+                "estimated_runway": "2025-04-21T14:28:00+00:00",
+                "actual_runway": "2025-04-21T14:28:00+00:00"
+            },
+            "arrival": {
+                "airport": "St-Exup\u00e9ry",
+                "timezone": "Europe/Paris",
+                "iata": "LYS",
+                "icao": "LFLL",
+                "terminal": "T1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T16:40:00+00:00",
+                "delay": 19,
+                "estimated": "2025-04-21T17:01:00+00:00",
+                "actual": "2025-04-21T16:59:00+00:00",
+                "estimated_runway": "2025-04-21T16:59:00+00:00",
+                "actual_runway": "2025-04-21T16:59:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "598",
+                "iata": "BJ598",
+                "icao": "LBT598",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INT",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 39,
+                "scheduled": "2025-04-21T14:00:00+00:00",
+                "estimated": "2025-04-21T14:00:00+00:00",
+                "actual": "2025-04-21T14:38:00+00:00",
+                "estimated_runway": "2025-04-21T14:38:00+00:00",
+                "actual_runway": "2025-04-21T14:38:00+00:00"
+            },
+            "arrival": {
+                "airport": "Entzheim",
+                "timezone": "Europe/Paris",
+                "iata": "SXB",
+                "icao": "LFST",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T17:15:00+00:00",
+                "delay": 16,
+                "estimated": "2025-04-21T17:36:00+00:00",
+                "actual": "2025-04-21T17:31:00+00:00",
+                "estimated_runway": "2025-04-21T17:31:00+00:00",
+                "actual_runway": "2025-04-21T17:31:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "776",
+                "iata": "BJ776",
+                "icao": "LBT776",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INL",
+                "iata": "A20N",
+                "icao": "A20N",
+                "icao24": "02A1AB"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Brussels Airport",
+                "timezone": "Europe/Brussels",
+                "iata": "BRU",
+                "icao": "EBBR",
+                "terminal": null,
+                "gate": null,
+                "delay": 53,
+                "scheduled": "2025-04-21T14:50:00+00:00",
+                "estimated": "2025-04-21T14:50:00+00:00",
+                "actual": "2025-04-21T15:43:00+00:00",
+                "estimated_runway": "2025-04-21T15:43:00+00:00",
+                "actual_runway": "2025-04-21T15:43:00+00:00"
+            },
+            "arrival": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T16:30:00+00:00",
+                "delay": 39,
+                "estimated": "2025-04-21T17:09:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "363",
+                "iata": "BJ363",
+                "icao": "LBT363",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INP",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1AF"
+            },
+            "live": {
+                "updated": "2025-04-21T16:11:22+00:00",
+                "latitude": 35.7608,
+                "longitude": 10.7573,
+                "altitude": 0,
+                "direction": 343,
+                "speed_horizontal": 9.26,
+                "speed_vertical": 0,
+                "is_ground": true
+            }
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 120,
+                "scheduled": "2025-04-21T17:30:00+00:00",
+                "estimated": "2025-04-21T17:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "02",
+                "scheduled": "2025-04-21T21:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "520",
+                "iata": "BJ520",
+                "icao": "LBT520",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Houari Boumediene",
+                "timezone": "Africa/Algiers",
+                "iata": "ALG",
+                "icao": "DAAG",
+                "terminal": "4",
+                "gate": null,
+                "delay": 37,
+                "scheduled": "2025-04-21T07:10:00+00:00",
+                "estimated": "2025-04-21T07:10:00+00:00",
+                "actual": "2025-04-21T07:46:00+00:00",
+                "estimated_runway": "2025-04-21T07:46:00+00:00",
+                "actual_runway": "2025-04-21T07:46:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T08:30:00+00:00",
+                "delay": 18,
+                "estimated": "2025-04-21T08:45:00+00:00",
+                "actual": "2025-04-21T08:48:00+00:00",
+                "estimated_runway": "2025-04-21T08:48:00+00:00",
+                "actual_runway": "2025-04-21T08:48:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "4000",
+                "iata": "BJ4000",
+                "icao": "LBT4000",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Milano Malpensa",
+                "timezone": "Europe/Rome",
+                "iata": "MXP",
+                "icao": "LIMC",
+                "terminal": "1",
+                "gate": null,
+                "delay": 28,
+                "scheduled": "2025-04-21T10:05:00+00:00",
+                "estimated": "2025-04-21T10:05:00+00:00",
+                "actual": "2025-04-21T10:32:00+00:00",
+                "estimated_runway": "2025-04-21T10:32:00+00:00",
+                "actual_runway": "2025-04-21T10:32:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T10:55:00+00:00",
+                "delay": 8,
+                "estimated": "2025-04-21T11:00:00+00:00",
+                "actual": "2025-04-21T11:03:00+00:00",
+                "estimated_runway": "2025-04-21T11:03:00+00:00",
+                "actual_runway": "2025-04-21T11:03:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "635",
+                "iata": "BJ635",
+                "icao": "LBT635",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INU",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Entzheim",
+                "timezone": "Europe/Paris",
+                "iata": "SXB",
+                "icao": "LFST",
+                "terminal": null,
+                "gate": null,
+                "delay": 39,
+                "scheduled": "2025-04-21T18:05:00+00:00",
+                "estimated": "2025-04-21T18:05:00+00:00",
+                "actual": "2025-04-21T18:44:00+00:00",
+                "estimated_runway": "2025-04-21T18:44:00+00:00",
+                "actual_runway": "2025-04-21T18:44:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T19:15:00+00:00",
+                "delay": 20,
+                "estimated": "2025-04-21T19:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "777",
+                "iata": "BJ777",
+                "icao": "LBT777",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INL",
+                "iata": "A20N",
+                "icao": "A20N",
+                "icao24": "02A1AB"
+            },
+            "live": {
+                "updated": "2025-04-21T17:32:15+00:00",
+                "latitude": 43.3261,
+                "longitude": 9.7156,
+                "altitude": 11277.6,
+                "direction": 168,
+                "speed_horizontal": 824.14,
+                "speed_vertical": 0,
+                "is_ground": false
+            }
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Brussels Airport",
+                "timezone": "Europe/Brussels",
+                "iata": "BRU",
+                "icao": "EBBR",
+                "terminal": null,
+                "gate": null,
+                "delay": 17,
+                "scheduled": "2025-04-21T11:15:00+00:00",
+                "estimated": "2025-04-21T11:15:00+00:00",
+                "actual": "2025-04-21T11:32:00+00:00",
+                "estimated_runway": "2025-04-21T11:32:00+00:00",
+                "actual_runway": "2025-04-21T11:32:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T12:50:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T12:53:00+00:00",
+                "actual": "2025-04-21T12:48:00+00:00",
+                "estimated_runway": "2025-04-21T12:48:00+00:00",
+                "actual_runway": "2025-04-21T12:48:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "397",
+                "iata": "BJ397",
+                "icao": "LBT397",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INC",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A2"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 50,
+                "scheduled": "2025-04-21T11:35:00+00:00",
+                "estimated": "2025-04-21T11:35:00+00:00",
+                "actual": "2025-04-21T12:36:00+00:00",
+                "estimated_runway": "2025-04-21T12:36:00+00:00",
+                "actual_runway": "2025-04-21T12:36:00+00:00"
+            },
+            "arrival": {
+                "airport": "Berlin Brandenburg Airport",
+                "timezone": "+1",
+                "iata": "BER",
+                "icao": "EDDB",
+                "terminal": "1",
+                "gate": "X06",
+                "baggage": "A1",
+                "scheduled": "2025-04-21T15:20:00+00:00",
+                "delay": 34,
+                "estimated": "2025-04-21T15:54:00+00:00",
+                "actual": "2025-04-21T15:54:00+00:00",
+                "estimated_runway": "2025-04-21T15:54:00+00:00",
+                "actual_runway": "2025-04-21T15:54:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "232",
+                "iata": "BJ232",
+                "icao": "LBT232",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INE",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 37,
+                "scheduled": "2025-04-21T11:45:00+00:00",
+                "estimated": "2025-04-21T11:45:00+00:00",
+                "actual": "2025-04-21T12:21:00+00:00",
+                "estimated_runway": "2025-04-21T12:21:00+00:00",
+                "actual_runway": "2025-04-21T12:21:00+00:00"
+            },
+            "arrival": {
+                "airport": "Istanbul Airport",
+                "timezone": "Europe/Istanbul",
+                "iata": "IST",
+                "icao": "LTFM",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "18A",
+                "scheduled": "2025-04-21T16:35:00+00:00",
+                "delay": 7,
+                "estimated": "2025-04-21T16:42:00+00:00",
+                "actual": "2025-04-21T16:42:00+00:00",
+                "estimated_runway": "2025-04-21T16:42:00+00:00",
+                "actual_runway": "2025-04-21T16:42:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "640",
+                "iata": "BJ640",
+                "icao": "LBT640",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INU",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Leonardo Da Vinci (Fiumicino)",
+                "timezone": "Europe/Rome",
+                "iata": "FCO",
+                "icao": "LIRF",
+                "terminal": null,
+                "gate": null,
+                "delay": 18,
+                "scheduled": "2025-04-21T21:35:00+00:00",
+                "estimated": "2025-04-21T21:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Mitiga",
+                "timezone": "Africa/Tripoli",
+                "iata": "MJI",
+                "icao": "HLLM",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T23:17:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": null,
+                "iata": "BJ",
+                "icao": "LBT",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Les Anglades",
+                "timezone": "Africa/Casablanca",
+                "iata": "OUD",
+                "icao": "GMFO",
+                "terminal": null,
+                "gate": null,
+                "delay": 89,
+                "scheduled": "2025-04-21T00:01:00+00:00",
+                "estimated": "2025-04-21T00:01:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Constantine Mohamed Boudiaf International Airport",
+                "timezone": "Africa/Algiers",
+                "iata": "CZL",
+                "icao": "DABC",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T01:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "4545",
+                "iata": "BJ4545",
+                "icao": "LBT4545",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INR",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B1"
+            },
+            "live": {
+                "updated": "2025-04-21T00:41:19+00:00",
+                "latitude": 34.7866,
+                "longitude": -1.9388,
+                "altitude": 0,
+                "direction": 312,
+                "speed_horizontal": 0,
+                "speed_vertical": 0,
+                "is_ground": true
+            }
+        },
+        {
+            "flight_date": "2025-04-21",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Les Anglades",
+                "timezone": "Africa/Casablanca",
+                "iata": "OUD",
+                "icao": "GMFO",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-04-21T00:01:00+00:00",
+                "estimated": "2025-04-21T00:01:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Constantine Mohamed Boudiaf International Airport",
+                "timezone": "Africa/Algiers",
+                "iata": "CZL",
+                "icao": "DABC",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T01:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "4544",
+                "iata": "BJ4544",
+                "icao": "LBT4544",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Milano Malpensa",
+                "timezone": "Europe/Rome",
+                "iata": "MXP",
+                "icao": "LIMC",
+                "terminal": "1",
+                "gate": null,
+                "delay": 69,
+                "scheduled": "2025-04-20T21:35:00+00:00",
+                "estimated": "2025-04-20T21:35:00+00:00",
+                "actual": "2025-04-20T22:43:00+00:00",
+                "estimated_runway": "2025-04-20T22:43:00+00:00",
+                "actual_runway": "2025-04-20T22:43:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T22:25:00+00:00",
+                "delay": 55,
+                "estimated": "2025-04-20T23:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "635",
+                "iata": "BJ635",
+                "icao": "LBT635",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INU",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B4"
+            },
+            "live": {
+                "updated": "2025-04-21T10:16:19+00:00",
+                "latitude": 36.8457,
+                "longitude": 10.2199,
+                "altitude": 0,
+                "direction": 292,
+                "speed_horizontal": 0,
+                "speed_vertical": 0,
+                "is_ground": true
+            }
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Vnukovo",
+                "timezone": "Europe/Moscow",
+                "iata": "VKO",
+                "icao": "UUWW",
+                "terminal": "A",
+                "gate": "26",
+                "delay": 8,
+                "scheduled": "2025-04-20T22:15:00+00:00",
+                "estimated": "2025-04-20T22:15:00+00:00",
+                "actual": "2025-04-20T22:22:00+00:00",
+                "estimated_runway": "2025-04-20T22:22:00+00:00",
+                "actual_runway": "2025-04-20T22:22:00+00:00"
+            },
+            "arrival": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-21T00:55:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-21T00:46:00+00:00",
+                "actual": "2025-04-21T00:46:00+00:00",
+                "estimated_runway": "2025-04-21T00:46:00+00:00",
+                "actual_runway": "2025-04-21T00:46:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "815",
+                "iata": "BJ815",
+                "icao": "LBT815",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INH",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A7"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": "5",
+                "delay": 23,
+                "scheduled": "2025-04-20T18:50:00+00:00",
+                "estimated": "2025-04-20T18:50:00+00:00",
+                "actual": "2025-04-20T19:12:00+00:00",
+                "estimated_runway": "2025-04-20T19:12:00+00:00",
+                "actual_runway": "2025-04-20T19:12:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T20:20:00+00:00",
+                "delay": 1,
+                "estimated": "2025-04-20T20:19:00+00:00",
+                "actual": "2025-04-20T20:21:00+00:00",
+                "estimated_runway": "2025-04-20T20:21:00+00:00",
+                "actual_runway": "2025-04-20T20:21:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "731",
+                "iata": "BJ731",
+                "icao": "LBT731",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INM",
+                "iata": "A20N",
+                "icao": "A20N",
+                "icao24": "02A1AC"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Frankfurt International Airport",
+                "timezone": "Europe/Berlin",
+                "iata": "FRA",
+                "icao": "EDDF",
+                "terminal": "2",
+                "gate": "D5",
+                "delay": 24,
+                "scheduled": "2025-04-20T15:20:00+00:00",
+                "estimated": "2025-04-20T15:20:00+00:00",
+                "actual": "2025-04-20T15:43:00+00:00",
+                "estimated_runway": "2025-04-20T15:43:00+00:00",
+                "actual_runway": "2025-04-20T15:43:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T16:50:00+00:00",
+                "delay": 10,
+                "estimated": "2025-04-20T17:00:00+00:00",
+                "actual": "2025-04-20T17:00:00+00:00",
+                "estimated_runway": "2025-04-20T17:00:00+00:00",
+                "actual_runway": "2025-04-20T17:00:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "247",
+                "iata": "BJ247",
+                "icao": "LBT247",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INC",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A2"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Cote D'azur International Airport",
+                "timezone": "Europe/Paris",
+                "iata": "NCE",
+                "icao": "LFMN",
+                "terminal": "1",
+                "gate": "G",
+                "delay": 40,
+                "scheduled": "2025-04-20T22:10:00+00:00",
+                "estimated": "2025-04-20T22:10:00+00:00",
+                "actual": "2025-04-20T22:49:00+00:00",
+                "estimated_runway": "2025-04-20T22:49:00+00:00",
+                "actual_runway": "2025-04-20T22:49:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T22:45:00+00:00",
+                "delay": 21,
+                "estimated": "2025-04-20T23:05:00+00:00",
+                "actual": "2025-04-20T23:06:00+00:00",
+                "estimated_runway": "2025-04-20T23:06:00+00:00",
+                "actual_runway": "2025-04-20T23:06:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "587",
+                "iata": "BJ587",
+                "icao": "LBT587",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INC",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A2"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 46,
+                "scheduled": "2025-04-20T15:15:00+00:00",
+                "estimated": "2025-04-20T15:15:00+00:00",
+                "actual": "2025-04-20T16:01:00+00:00",
+                "estimated_runway": "2025-04-20T16:01:00+00:00",
+                "actual_runway": "2025-04-20T16:01:00+00:00"
+            },
+            "arrival": {
+                "airport": "Gatwick",
+                "timezone": "Europe/London",
+                "iata": "LGW",
+                "icao": "EGKK",
+                "terminal": "S",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T18:20:00+00:00",
+                "delay": 4,
+                "estimated": "2025-04-20T18:24:00+00:00",
+                "actual": "2025-04-20T18:24:00+00:00",
+                "estimated_runway": "2025-04-20T18:24:00+00:00",
+                "actual_runway": "2025-04-20T18:24:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "844",
+                "iata": "BJ844",
+                "icao": "LBT844",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INU",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Gatwick",
+                "timezone": "Europe/London",
+                "iata": "LGW",
+                "icao": "EGKK",
+                "terminal": "S",
+                "gate": "16",
+                "delay": 12,
+                "scheduled": "2025-04-20T19:25:00+00:00",
+                "estimated": "2025-04-20T19:25:00+00:00",
+                "actual": "2025-04-20T19:36:00+00:00",
+                "estimated_runway": "2025-04-20T19:36:00+00:00",
+                "actual_runway": "2025-04-20T19:36:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T22:15:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T22:07:00+00:00",
+                "actual": "2025-04-20T22:08:00+00:00",
+                "estimated_runway": "2025-04-20T22:08:00+00:00",
+                "actual_runway": "2025-04-20T22:08:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "845",
+                "iata": "BJ845",
+                "icao": "LBT845",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INU",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": null,
+                "gate": null,
+                "delay": 11,
+                "scheduled": "2025-04-20T19:45:00+00:00",
+                "estimated": "2025-04-20T19:45:00+00:00",
+                "actual": "2025-04-20T19:56:00+00:00",
+                "estimated_runway": "2025-04-20T19:56:00+00:00",
+                "actual_runway": "2025-04-20T19:56:00+00:00"
+            },
+            "arrival": {
+                "airport": "Marseille Provence Airport",
+                "timezone": "Europe/Paris",
+                "iata": "MRS",
+                "icao": "LFML",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "4",
+                "scheduled": "2025-04-20T22:50:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T22:39:00+00:00",
+                "actual": "2025-04-20T22:39:00+00:00",
+                "estimated_runway": "2025-04-20T22:39:00+00:00",
+                "actual_runway": "2025-04-20T22:39:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "588",
+                "iata": "BJ588",
+                "icao": "LBT588",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-IND",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 49,
+                "scheduled": "2025-04-20T18:45:00+00:00",
+                "estimated": "2025-04-20T18:45:00+00:00",
+                "actual": "2025-04-20T19:34:00+00:00",
+                "estimated_runway": "2025-04-20T19:34:00+00:00",
+                "actual_runway": "2025-04-20T19:34:00+00:00"
+            },
+            "arrival": {
+                "airport": "Cote D'azur International Airport",
+                "timezone": "Europe/Paris",
+                "iata": "NCE",
+                "icao": "LFMN",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "6",
+                "scheduled": "2025-04-20T21:20:00+00:00",
+                "delay": 22,
+                "estimated": "2025-04-20T21:39:00+00:00",
+                "actual": "2025-04-20T21:42:00+00:00",
+                "estimated_runway": "2025-04-20T21:42:00+00:00",
+                "actual_runway": "2025-04-20T21:42:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "586",
+                "iata": "BJ586",
+                "icao": "LBT586",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INC",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A2"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": null,
+                "gate": null,
+                "delay": 9,
+                "scheduled": "2025-04-20T21:00:00+00:00",
+                "estimated": "2025-04-20T21:00:00+00:00",
+                "actual": "2025-04-20T21:09:00+00:00",
+                "estimated_runway": "2025-04-20T21:09:00+00:00",
+                "actual_runway": "2025-04-20T21:09:00+00:00"
+            },
+            "arrival": {
+                "airport": "Les Anglades",
+                "timezone": "Africa/Casablanca",
+                "iata": "OUD",
+                "icao": "GMFO",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T23:10:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T22:55:00+00:00",
+                "actual": "2025-04-20T23:06:00+00:00",
+                "estimated_runway": "2025-04-20T23:06:00+00:00",
+                "actual_runway": "2025-04-20T23:06:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "4544",
+                "iata": "BJ4544",
+                "icao": "LBT4544",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INR",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B1"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 31,
+                "scheduled": "2025-04-20T13:55:00+00:00",
+                "estimated": "2025-04-20T13:55:00+00:00",
+                "actual": "2025-04-20T14:25:00+00:00",
+                "estimated_runway": "2025-04-20T14:25:00+00:00",
+                "actual_runway": "2025-04-20T14:25:00+00:00"
+            },
+            "arrival": {
+                "airport": "Geneve-cointrin",
+                "timezone": "Europe/Zurich",
+                "iata": "GVA",
+                "icao": "LSGG",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "6",
+                "scheduled": "2025-04-20T16:55:00+00:00",
+                "delay": 3,
+                "estimated": "2025-04-20T16:58:00+00:00",
+                "actual": "2025-04-20T16:58:00+00:00",
+                "estimated_runway": "2025-04-20T16:58:00+00:00",
+                "actual_runway": "2025-04-20T16:58:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "184",
+                "iata": "BJ184",
+                "icao": "LBT184",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INT",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Houari Boumediene",
+                "timezone": "Africa/Algiers",
+                "iata": "ALG",
+                "icao": "DAAG",
+                "terminal": "4",
+                "gate": null,
+                "delay": 51,
+                "scheduled": "2025-04-20T16:10:00+00:00",
+                "estimated": "2025-04-20T16:10:00+00:00",
+                "actual": "2025-04-20T17:00:00+00:00",
+                "estimated_runway": "2025-04-20T17:00:00+00:00",
+                "actual_runway": "2025-04-20T17:00:00+00:00"
+            },
+            "arrival": {
+                "airport": "M\u00e9rignac",
+                "timezone": "Europe/Paris",
+                "iata": "BOD",
+                "icao": "LFBD",
+                "terminal": "A",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T19:00:00+00:00",
+                "delay": 26,
+                "estimated": "2025-04-20T19:25:00+00:00",
+                "actual": "2025-04-20T19:26:00+00:00",
+                "estimated_runway": "2025-04-20T19:26:00+00:00",
+                "actual_runway": "2025-04-20T19:26:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "1190",
+                "iata": "BJ1190",
+                "icao": "LBT1190",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "M\u00e9rignac",
+                "timezone": "Europe/Paris",
+                "iata": "BOD",
+                "icao": "LFBD",
+                "terminal": "A",
+                "gate": "82",
+                "delay": 57,
+                "scheduled": "2025-04-20T20:00:00+00:00",
+                "estimated": "2025-04-20T20:00:00+00:00",
+                "actual": "2025-04-20T20:56:00+00:00",
+                "estimated_runway": "2025-04-20T20:56:00+00:00",
+                "actual_runway": "2025-04-20T20:56:00+00:00"
+            },
+            "arrival": {
+                "airport": "Houari Boumediene",
+                "timezone": "Africa/Algiers",
+                "iata": "ALG",
+                "icao": "DAAG",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T20:40:00+00:00",
+                "delay": 38,
+                "estimated": "2025-04-20T21:24:00+00:00",
+                "actual": "2025-04-20T21:18:00+00:00",
+                "estimated_runway": "2025-04-20T21:18:00+00:00",
+                "actual_runway": "2025-04-20T21:18:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "1191",
+                "iata": "BJ1191",
+                "icao": "LBT1191",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": "4",
+                "delay": 7,
+                "scheduled": "2025-04-20T20:05:00+00:00",
+                "estimated": "2025-04-20T20:05:00+00:00",
+                "actual": "2025-04-20T20:12:00+00:00",
+                "estimated_runway": "2025-04-20T20:12:00+00:00",
+                "actual_runway": "2025-04-20T20:12:00+00:00"
+            },
+            "arrival": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T21:55:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T21:45:00+00:00",
+                "actual": "2025-04-20T21:44:00+00:00",
+                "estimated_runway": "2025-04-20T21:44:00+00:00",
+                "actual_runway": "2025-04-20T21:44:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "509",
+                "iata": "BJ509",
+                "icao": "LBT509",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INF",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A5"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": "3",
+                "delay": 16,
+                "scheduled": "2025-04-20T19:45:00+00:00",
+                "estimated": "2025-04-20T19:45:00+00:00",
+                "actual": "2025-04-20T19:42:00+00:00",
+                "estimated_runway": "2025-04-20T19:42:00+00:00",
+                "actual_runway": "2025-04-20T19:42:00+00:00"
+            },
+            "arrival": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T21:20:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T21:03:00+00:00",
+                "actual": "2025-04-20T20:58:00+00:00",
+                "estimated_runway": "2025-04-20T20:58:00+00:00",
+                "actual_runway": "2025-04-20T20:58:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "543",
+                "iata": "BJ543",
+                "icao": "LBT543",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-ING",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A6"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "D\u00fcsseldorf International Airport",
+                "timezone": "Europe/Berlin",
+                "iata": "DUS",
+                "icao": "EDDL",
+                "terminal": null,
+                "gate": "195",
+                "delay": 3,
+                "scheduled": "2025-04-20T12:10:00+00:00",
+                "estimated": "2025-04-20T12:10:00+00:00",
+                "actual": "2025-04-20T12:12:00+00:00",
+                "estimated_runway": "2025-04-20T12:12:00+00:00",
+                "actual_runway": "2025-04-20T12:12:00+00:00"
+            },
+            "arrival": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": "3",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T13:50:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T13:48:00+00:00",
+                "actual": "2025-04-20T13:45:00+00:00",
+                "estimated_runway": "2025-04-20T13:45:00+00:00",
+                "actual_runway": "2025-04-20T13:45:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "215",
+                "iata": "BJ215",
+                "icao": "LBT215",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-ING",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A6"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2025-04-20T17:45:00+00:00",
+                "estimated": "2025-04-20T17:45:00+00:00",
+                "actual": "2025-04-20T17:44:00+00:00",
+                "estimated_runway": "2025-04-20T17:44:00+00:00",
+                "actual_runway": "2025-04-20T17:44:00+00:00"
+            },
+            "arrival": {
+                "airport": "Blagnac",
+                "timezone": "Europe/Paris",
+                "iata": "TLS",
+                "icao": "LFBO",
+                "terminal": "1",
+                "gate": "4",
+                "baggage": "7",
+                "scheduled": "2025-04-20T21:05:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T20:38:00+00:00",
+                "actual": "2025-04-20T20:38:00+00:00",
+                "estimated_runway": "2025-04-20T20:38:00+00:00",
+                "actual_runway": "2025-04-20T20:38:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "740",
+                "iata": "BJ740",
+                "icao": "LBT740",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INP",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1AF"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "St-Exup\u00e9ry",
+                "timezone": "Europe/Paris",
+                "iata": "LYS",
+                "icao": "LFLL",
+                "terminal": "T1",
+                "gate": null,
+                "delay": 5,
+                "scheduled": "2025-04-20T18:45:00+00:00",
+                "estimated": "2025-04-20T18:45:00+00:00",
+                "actual": "2025-04-20T18:50:00+00:00",
+                "estimated_runway": "2025-04-20T18:50:00+00:00",
+                "actual_runway": "2025-04-20T18:50:00+00:00"
+            },
+            "arrival": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T20:00:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T19:54:00+00:00",
+                "actual": "2025-04-20T19:54:00+00:00",
+                "estimated_runway": "2025-04-20T19:54:00+00:00",
+                "actual_runway": "2025-04-20T19:54:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "575",
+                "iata": "BJ575",
+                "icao": "LBT575",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INQ",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B0"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": null,
+                "gate": null,
+                "delay": 13,
+                "scheduled": "2025-04-20T15:00:00+00:00",
+                "estimated": "2025-04-20T15:00:00+00:00",
+                "actual": "2025-04-20T15:13:00+00:00",
+                "estimated_runway": "2025-04-20T15:13:00+00:00",
+                "actual_runway": "2025-04-20T15:13:00+00:00"
+            },
+            "arrival": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "03",
+                "scheduled": "2025-04-20T19:05:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T18:40:00+00:00",
+                "actual": "2025-04-20T18:47:00+00:00",
+                "estimated_runway": "2025-04-20T18:47:00+00:00",
+                "actual_runway": "2025-04-20T18:47:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "508",
+                "iata": "BJ508",
+                "icao": "LBT508",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INF",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A5"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Geneve-cointrin",
+                "timezone": "Europe/Zurich",
+                "iata": "GVA",
+                "icao": "LSGG",
+                "terminal": "1",
+                "gate": "C60",
+                "delay": 30,
+                "scheduled": "2025-04-20T17:55:00+00:00",
+                "estimated": "2025-04-20T17:55:00+00:00",
+                "actual": "2025-04-20T18:24:00+00:00",
+                "estimated_runway": "2025-04-20T18:24:00+00:00",
+                "actual_runway": "2025-04-20T18:24:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T18:50:00+00:00",
+                "delay": 18,
+                "estimated": "2025-04-20T19:08:00+00:00",
+                "actual": "2025-04-20T19:08:00+00:00",
+                "estimated_runway": "2025-04-20T19:08:00+00:00",
+                "actual_runway": "2025-04-20T19:08:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "185",
+                "iata": "BJ185",
+                "icao": "LBT185",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INT",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Lesquin",
+                "timezone": "Europe/Paris",
+                "iata": "LIL",
+                "icao": "LFQQ",
+                "terminal": null,
+                "gate": null,
+                "delay": 8,
+                "scheduled": "2025-04-20T14:45:00+00:00",
+                "estimated": "2025-04-20T14:45:00+00:00",
+                "actual": "2025-04-20T14:53:00+00:00",
+                "estimated_runway": "2025-04-20T14:53:00+00:00",
+                "actual_runway": "2025-04-20T14:53:00+00:00"
+            },
+            "arrival": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T16:45:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T16:42:00+00:00",
+                "actual": "2025-04-20T16:38:00+00:00",
+                "estimated_runway": "2025-04-20T16:38:00+00:00",
+                "actual_runway": "2025-04-20T16:38:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "775",
+                "iata": "BJ775",
+                "icao": "LBT775",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INP",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1AF"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 40,
+                "scheduled": "2025-04-20T12:30:00+00:00",
+                "estimated": "2025-04-20T12:30:00+00:00",
+                "actual": "2025-04-20T13:10:00+00:00",
+                "estimated_runway": "2025-04-20T13:10:00+00:00",
+                "actual_runway": "2025-04-20T13:10:00+00:00"
+            },
+            "arrival": {
+                "airport": "Marseille Provence Airport",
+                "timezone": "Europe/Paris",
+                "iata": "MRS",
+                "icao": "LFML",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "2",
+                "scheduled": "2025-04-20T15:10:00+00:00",
+                "delay": 16,
+                "estimated": "2025-04-20T15:24:00+00:00",
+                "actual": "2025-04-20T15:26:00+00:00",
+                "estimated_runway": "2025-04-20T15:26:00+00:00",
+                "actual_runway": "2025-04-20T15:26:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "516",
+                "iata": "BJ516",
+                "icao": "LBT516",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INE",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": "3",
+                "delay": 79,
+                "scheduled": "2025-04-20T22:05:00+00:00",
+                "estimated": "2025-04-20T22:05:00+00:00",
+                "actual": "2025-04-20T23:24:00+00:00",
+                "estimated_runway": "2025-04-20T23:24:00+00:00",
+                "actual_runway": "2025-04-20T23:24:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T23:35:00+00:00",
+                "delay": 56,
+                "estimated": "2025-04-21T00:31:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "521",
+                "iata": "BJ521",
+                "icao": "LBT521",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INE",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A4"
+            },
+            "live": {
+                "updated": "2025-04-20T23:36:41+00:00",
+                "latitude": 36.8471,
+                "longitude": 10.2203,
+                "altitude": 0,
+                "direction": 109,
+                "speed_horizontal": 14.816,
+                "speed_vertical": 0,
+                "is_ground": true
+            }
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": "2",
+                "delay": 11,
+                "scheduled": "2025-04-20T12:05:00+00:00",
+                "estimated": "2025-04-20T12:05:00+00:00",
+                "actual": "2025-04-20T12:16:00+00:00",
+                "estimated_runway": "2025-04-20T12:16:00+00:00",
+                "actual_runway": "2025-04-20T12:16:00+00:00"
+            },
+            "arrival": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T13:55:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T13:54:00+00:00",
+                "actual": "2025-04-20T13:49:00+00:00",
+                "estimated_runway": "2025-04-20T13:49:00+00:00",
+                "actual_runway": "2025-04-20T13:49:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "555",
+                "iata": "BJ555",
+                "icao": "LBT555",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INF",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A5"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": "3",
+                "delay": 20,
+                "scheduled": "2025-04-20T11:35:00+00:00",
+                "estimated": "2025-04-20T11:35:00+00:00",
+                "actual": "2025-04-20T11:55:00+00:00",
+                "estimated_runway": "2025-04-20T11:55:00+00:00",
+                "actual_runway": "2025-04-20T11:55:00+00:00"
+            },
+            "arrival": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T13:25:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T13:30:00+00:00",
+                "actual": "2025-04-20T13:25:00+00:00",
+                "estimated_runway": "2025-04-20T13:25:00+00:00",
+                "actual_runway": "2025-04-20T13:25:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "749",
+                "iata": "BJ749",
+                "icao": "LBT749",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INQ",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B0"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-04-20T12:05:00+00:00",
+                "estimated": "2025-04-20T12:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Lesquin",
+                "timezone": "Europe/Paris",
+                "iata": "LIL",
+                "icao": "LFQQ",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T16:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "762",
+                "iata": "BJ762",
+                "icao": "LBT762",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "LZ-EAD",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "45210D"
+            },
+            "live": {
+                "updated": "2025-04-20T14:40:37+00:00",
+                "latitude": 50.5383,
+                "longitude": 2.9109,
+                "altitude": 777.24,
+                "direction": 46,
+                "speed_horizontal": 314.84,
+                "speed_vertical": 0,
+                "is_ground": false
+            }
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": null,
+                "gate": null,
+                "delay": 50,
+                "scheduled": "2025-04-20T12:00:00+00:00",
+                "estimated": "2025-04-20T12:00:00+00:00",
+                "actual": "2025-04-20T12:50:00+00:00",
+                "estimated_runway": "2025-04-20T12:50:00+00:00",
+                "actual_runway": "2025-04-20T12:50:00+00:00"
+            },
+            "arrival": {
+                "airport": "Nantes Atlantique",
+                "timezone": "Europe/Paris",
+                "iata": "NTE",
+                "icao": "LFRS",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "C3",
+                "scheduled": "2025-04-20T15:55:00+00:00",
+                "delay": 21,
+                "estimated": "2025-04-20T16:17:00+00:00",
+                "actual": "2025-04-20T16:16:00+00:00",
+                "estimated_runway": "2025-04-20T16:16:00+00:00",
+                "actual_runway": "2025-04-20T16:16:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "704",
+                "iata": "BJ704",
+                "icao": "LBT704",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-IND",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": "2",
+                "delay": 15,
+                "scheduled": "2025-04-20T10:45:00+00:00",
+                "estimated": "2025-04-20T10:45:00+00:00",
+                "actual": "2025-04-20T10:59:00+00:00",
+                "estimated_runway": "2025-04-20T10:59:00+00:00",
+                "actual_runway": "2025-04-20T10:59:00+00:00"
+            },
+            "arrival": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": "3",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T12:20:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T12:18:00+00:00",
+                "actual": "2025-04-20T12:20:00+00:00",
+                "estimated_runway": "2025-04-20T12:20:00+00:00",
+                "actual_runway": "2025-04-20T12:20:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "569",
+                "iata": "BJ569",
+                "icao": "LBT569",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-ING",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A6"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Nantes Atlantique",
+                "timezone": "Europe/Paris",
+                "iata": "NTE",
+                "icao": "LFRS",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2025-04-20T09:25:00+00:00",
+                "estimated": "2025-04-20T09:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T11:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "769",
+                "iata": "BJ769",
+                "icao": "LBT769",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-IND",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A3"
+            },
+            "live": {
+                "updated": "2025-04-20T09:17:41+00:00",
+                "latitude": 35.76,
+                "longitude": 10.7565,
+                "altitude": 0,
+                "direction": 295,
+                "speed_horizontal": 16.668,
+                "speed_vertical": 0,
+                "is_ground": true
+            }
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": null,
+                "gate": null,
+                "delay": 14,
+                "scheduled": "2025-04-20T09:45:00+00:00",
+                "estimated": "2025-04-20T09:45:00+00:00",
+                "actual": "2025-04-20T09:59:00+00:00",
+                "estimated_runway": "2025-04-20T09:59:00+00:00",
+                "actual_runway": "2025-04-20T09:59:00+00:00"
+            },
+            "arrival": {
+                "airport": "Lesquin",
+                "timezone": "Europe/Paris",
+                "iata": "LIL",
+                "icao": "LFQQ",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T13:50:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T13:35:00+00:00",
+                "actual": "2025-04-20T13:34:00+00:00",
+                "estimated_runway": "2025-04-20T13:34:00+00:00",
+                "actual_runway": "2025-04-20T13:34:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "774",
+                "iata": "BJ774",
+                "icao": "LBT774",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INP",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1AF"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Istanbul Airport",
+                "timezone": "Europe/Istanbul",
+                "iata": "IST",
+                "icao": "LTFM",
+                "terminal": null,
+                "gate": "B8B",
+                "delay": 18,
+                "scheduled": "2025-04-20T12:05:00+00:00",
+                "estimated": "2025-04-20T12:05:00+00:00",
+                "actual": "2025-04-20T12:23:00+00:00",
+                "estimated_runway": "2025-04-20T12:23:00+00:00",
+                "actual_runway": "2025-04-20T12:23:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T13:05:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T12:47:00+00:00",
+                "actual": "2025-04-20T12:53:00+00:00",
+                "estimated_runway": "2025-04-20T12:53:00+00:00",
+                "actual_runway": "2025-04-20T12:53:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "641",
+                "iata": "BJ641",
+                "icao": "LBT641",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INU",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "St-Exup\u00e9ry",
+                "timezone": "Europe/Paris",
+                "iata": "LYS",
+                "icao": "LFLL",
+                "terminal": "T1",
+                "gate": null,
+                "delay": 11,
+                "scheduled": "2025-04-20T09:45:00+00:00",
+                "estimated": "2025-04-20T09:45:00+00:00",
+                "actual": "2025-04-20T09:55:00+00:00",
+                "estimated_runway": "2025-04-20T09:55:00+00:00",
+                "actual_runway": "2025-04-20T09:55:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T10:40:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T10:29:00+00:00",
+                "actual": "2025-04-20T10:29:00+00:00",
+                "estimated_runway": "2025-04-20T10:29:00+00:00",
+                "actual_runway": "2025-04-20T10:29:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "599",
+                "iata": "BJ599",
+                "icao": "LBT599",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INT",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Nantes Atlantique",
+                "timezone": "Europe/Paris",
+                "iata": "NTE",
+                "icao": "LFRS",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2025-04-20T09:25:00+00:00",
+                "estimated": "2025-04-20T09:25:00+00:00",
+                "actual": "2025-04-20T09:07:00+00:00",
+                "estimated_runway": "2025-04-20T09:07:00+00:00",
+                "actual_runway": "2025-04-20T09:07:00+00:00"
+            },
+            "arrival": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": "3",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T11:10:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T10:31:00+00:00",
+                "actual": "2025-04-20T10:16:00+00:00",
+                "estimated_runway": "2025-04-20T10:16:00+00:00",
+                "actual_runway": "2025-04-20T10:16:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "769",
+                "iata": "BJ769",
+                "icao": "LBT769",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Brussels Airport",
+                "timezone": "Europe/Brussels",
+                "iata": "BRU",
+                "icao": "EBBR",
+                "terminal": null,
+                "gate": null,
+                "delay": 23,
+                "scheduled": "2025-04-20T12:45:00+00:00",
+                "estimated": "2025-04-20T12:45:00+00:00",
+                "actual": "2025-04-20T13:08:00+00:00",
+                "estimated_runway": "2025-04-20T13:08:00+00:00",
+                "actual_runway": "2025-04-20T13:08:00+00:00"
+            },
+            "arrival": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T14:20:00+00:00",
+                "delay": 10,
+                "estimated": "2025-04-20T14:28:00+00:00",
+                "actual": "2025-04-20T14:30:00+00:00",
+                "estimated_runway": "2025-04-20T14:30:00+00:00",
+                "actual_runway": "2025-04-20T14:30:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "397",
+                "iata": "BJ397",
+                "icao": "LBT397",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INC",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A2"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Cairo International Airport",
+                "timezone": "Africa/Cairo",
+                "iata": "CAI",
+                "icao": "HECA",
+                "terminal": "1",
+                "gate": null,
+                "delay": 24,
+                "scheduled": "2025-04-20T02:15:00+00:00",
+                "estimated": "2025-04-20T02:15:00+00:00",
+                "actual": "2025-04-20T02:39:00+00:00",
+                "estimated_runway": "2025-04-20T02:39:00+00:00",
+                "actual_runway": "2025-04-20T02:39:00+00:00"
+            },
+            "arrival": {
+                "airport": "Houari Boumediene",
+                "timezone": "Africa/Algiers",
+                "iata": "ALG",
+                "icao": "DAAG",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T05:25:00+00:00",
+                "delay": 8,
+                "estimated": "2025-04-20T05:30:00+00:00",
+                "actual": "2025-04-20T05:33:00+00:00",
+                "estimated_runway": "2025-04-20T05:33:00+00:00",
+                "actual_runway": "2025-04-20T05:33:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "4037",
+                "iata": "BJ4037",
+                "icao": "LBT4037",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 1,
+                "scheduled": "2025-04-20T06:15:00+00:00",
+                "estimated": "2025-04-20T06:15:00+00:00",
+                "actual": "2025-04-20T06:16:00+00:00",
+                "estimated_runway": "2025-04-20T06:16:00+00:00",
+                "actual_runway": "2025-04-20T06:16:00+00:00"
+            },
+            "arrival": {
+                "airport": "Istanbul Airport",
+                "timezone": "Europe/Istanbul",
+                "iata": "IST",
+                "icao": "LTFM",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "21A",
+                "scheduled": "2025-04-20T11:05:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T10:31:00+00:00",
+                "actual": "2025-04-20T10:32:00+00:00",
+                "estimated_runway": "2025-04-20T10:32:00+00:00",
+                "actual_runway": "2025-04-20T10:32:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "640",
+                "iata": "BJ640",
+                "icao": "LBT640",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INU",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2025-04-20T04:20:00+00:00",
+                "estimated": "2025-04-20T04:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T08:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "702",
+                "iata": "BJ702",
+                "icao": "LBT702",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "LZ-EAD",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "45210D"
+            },
+            "live": {
+                "updated": "2025-04-20T06:07:15+00:00",
+                "latitude": 48.8922,
+                "longitude": 2.0244,
+                "altitude": 2133.6,
+                "direction": 270,
+                "speed_horizontal": 492.632,
+                "speed_vertical": 0,
+                "is_ground": false
+            }
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Habib Bourguiba",
+                "timezone": "Africa/Tunis",
+                "iata": "MIR",
+                "icao": "DTMB",
+                "terminal": null,
+                "gate": null,
+                "delay": 1,
+                "scheduled": "2025-04-20T06:00:00+00:00",
+                "estimated": "2025-04-20T06:00:00+00:00",
+                "actual": "2025-04-20T06:00:00+00:00",
+                "estimated_runway": "2025-04-20T06:00:00+00:00",
+                "actual_runway": "2025-04-20T06:00:00+00:00"
+            },
+            "arrival": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "01",
+                "scheduled": "2025-04-20T09:45:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T09:14:00+00:00",
+                "actual": "2025-04-20T09:14:00+00:00",
+                "estimated_runway": "2025-04-20T09:14:00+00:00",
+                "actual_runway": "2025-04-20T09:14:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "568",
+                "iata": "BJ568",
+                "icao": "LBT568",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-ING",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A6"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 9,
+                "scheduled": "2025-04-20T06:00:00+00:00",
+                "estimated": "2025-04-20T06:00:00+00:00",
+                "actual": "2025-04-20T06:09:00+00:00",
+                "estimated_runway": "2025-04-20T06:09:00+00:00",
+                "actual_runway": "2025-04-20T06:09:00+00:00"
+            },
+            "arrival": {
+                "airport": "St-Exup\u00e9ry",
+                "timezone": "Europe/Paris",
+                "iata": "LYS",
+                "icao": "LFLL",
+                "terminal": "T1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T08:55:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T08:40:00+00:00",
+                "actual": "2025-04-20T08:41:00+00:00",
+                "estimated_runway": "2025-04-20T08:41:00+00:00",
+                "actual_runway": "2025-04-20T08:41:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "598",
+                "iata": "BJ598",
+                "icao": "LBT598",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INT",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Carthage",
+                "timezone": "Africa/Tunis",
+                "iata": "TUN",
+                "icao": "DTTA",
+                "terminal": "M",
+                "gate": null,
+                "delay": 16,
+                "scheduled": "2025-04-20T07:00:00+00:00",
+                "estimated": "2025-04-20T07:00:00+00:00",
+                "actual": "2025-04-20T07:16:00+00:00",
+                "estimated_runway": "2025-04-20T07:16:00+00:00",
+                "actual_runway": "2025-04-20T07:16:00+00:00"
+            },
+            "arrival": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "02",
+                "scheduled": "2025-04-20T10:35:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T10:20:00+00:00",
+                "actual": "2025-04-20T10:19:00+00:00",
+                "estimated_runway": "2025-04-20T10:19:00+00:00",
+                "actual_runway": "2025-04-20T10:19:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "510",
+                "iata": "BJ510",
+                "icao": "LBT510",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INL",
+                "iata": "A20N",
+                "icao": "A20N",
+                "icao24": "02A1AB"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2025-04-20T06:35:00+00:00",
+                "estimated": "2025-04-20T06:35:00+00:00",
+                "actual": "2025-04-20T06:28:00+00:00",
+                "estimated_runway": "2025-04-20T06:28:00+00:00",
+                "actual_runway": "2025-04-20T06:28:00+00:00"
+            },
+            "arrival": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T10:35:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T09:57:00+00:00",
+                "actual": "2025-04-20T10:01:00+00:00",
+                "estimated_runway": "2025-04-20T10:01:00+00:00",
+                "actual_runway": "2025-04-20T10:01:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "748",
+                "iata": "BJ748",
+                "icao": "LBT748",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INQ",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1B0"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2025-04-20",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Djerba-Zarzis",
+                "timezone": "Africa/Tunis",
+                "iata": "DJE",
+                "icao": "DTTJ",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2025-04-20T07:05:00+00:00",
+                "estimated": "2025-04-20T07:05:00+00:00",
+                "actual": "2025-04-20T06:59:00+00:00",
+                "estimated_runway": "2025-04-20T06:59:00+00:00",
+                "actual_runway": "2025-04-20T06:59:00+00:00"
+            },
+            "arrival": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2025-04-20T11:05:00+00:00",
+                "delay": null,
+                "estimated": "2025-04-20T10:29:00+00:00",
+                "actual": "2025-04-20T10:30:00+00:00",
+                "estimated_runway": "2025-04-20T10:30:00+00:00",
+                "actual_runway": "2025-04-20T10:30:00+00:00"
+            },
+            "airline": {
+                "name": "Nouvelair Tunisie",
+                "iata": "BJ",
+                "icao": "LBT"
+            },
+            "flight": {
+                "number": "554",
+                "iata": "BJ554",
+                "icao": "LBT554",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "TS-INF",
+                "iata": "A320",
+                "icao": "A320",
+                "icao24": "02A1A5"
+            },
+            "live": null
+        }
+    ]
+}
