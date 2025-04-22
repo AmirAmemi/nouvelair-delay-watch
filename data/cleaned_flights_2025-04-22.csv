@@ -1,0 +1,28 @@
+flight_date,flight.iata,departure.airport,departure.estimated,arrival.airport,arrival.estimated,flight_status,departure.delay,arrival.delay,total.delay,delay.status
+2025-04-22,BJ3015,Istanbul Airport,2025-04-22T01:40:00+00:00,Houari Boumediene,2025-04-22T04:05:00+00:00,scheduled,73.0,55.0,128.0,Delayed
+2025-04-21,BJ363,Brussels Airport,2025-04-21T14:50:00+00:00,Habib Bourguiba,2025-04-21T17:09:00+00:00,scheduled,53.0,39.0,92.0,Delayed
+2025-04-21,BJ640,Carthage,2025-04-21T11:45:00+00:00,Istanbul Airport,2025-04-21T16:42:00+00:00,landed,37.0,7.0,44.0,Delayed
+2025-04-21,BJ232,Carthage,2025-04-21T11:35:00+00:00,Berlin Brandenburg Airport,2025-04-21T15:54:00+00:00,landed,61.0,34.0,95.0,Delayed
+2025-04-21,BJ777,Entzheim,2025-04-21T18:05:00+00:00,Carthage,2025-04-21T19:30:00+00:00,landed,39.0,18.0,57.0,Delayed
+2025-04-21,BJ635,Milano Malpensa,2025-04-21T10:05:00+00:00,Carthage,2025-04-21T11:00:00+00:00,landed,28.0,8.0,36.0,Delayed
+2025-04-21,BJ4000,Houari Boumediene,2025-04-21T07:10:00+00:00,Carthage,2025-04-21T08:45:00+00:00,landed,37.0,18.0,55.0,Delayed
+2025-04-21,BJ520,Carthage,2025-04-21T17:30:00+00:00,Charles De Gaulle,2025-04-21T22:48:00+00:00,scheduled,127.0,103.0,230.0,Delayed
+2025-04-21,BJ598,Carthage,2025-04-21T13:45:00+00:00,St-Exupéry,2025-04-21T17:01:00+00:00,landed,43.0,19.0,62.0,Delayed
+2025-04-21,BJ184,Carthage,2025-04-21T06:45:00+00:00,Geneve-cointrin,2025-04-21T09:45:00+00:00,landed,26.0,1.0,27.0,Delayed
+2025-04-21,BJ3014,Houari Boumediene,2025-04-21T19:05:00+00:00,Istanbul Airport,2025-04-22T01:10:00+00:00,landed,50.0,33.0,83.0,Delayed
+2025-04-21,BJ2047,Frankfurt International Airport,2025-04-21T10:40:00+00:00,Djerba-Zarzis,2025-04-21T12:50:00+00:00,diverted,37.0,10.0,47.0,Delayed
+2025-04-21,BJ599,St-Exupéry,2025-04-21T17:30:00+00:00,Carthage,2025-04-21T18:36:00+00:00,landed,36.0,17.0,53.0,Delayed
+2025-04-21,BJ205,Düsseldorf International Airport,2025-04-21T10:40:00+00:00,Carthage,2025-04-21T12:12:00+00:00,landed,18.0,1.0,19.0,Delayed
+2025-04-21,BJ517,Marseille Provence Airport,2025-04-21T22:30:00+00:00,Carthage,2025-04-22T00:47:00+00:00,scheduled,122.0,97.0,219.0,Delayed
+2025-04-21,BJ776,Carthage,2025-04-21T14:00:00+00:00,Entzheim,2025-04-21T17:36:00+00:00,landed,39.0,16.0,55.0,Delayed
+2025-04-21,BJ586,Carthage,2025-04-21T12:30:00+00:00,Cote D'azur International Airport,2025-04-21T16:38:00+00:00,scheduled,114.0,93.0,207.0,Delayed
+2025-04-21,BJ730,Carthage,2025-04-21T13:05:00+00:00,Charles De Gaulle,2025-04-21T16:47:00+00:00,landed,41.0,11.0,52.0,Delayed
+2025-04-21,BJ731,Charles De Gaulle,2025-04-21T17:40:00+00:00,Carthage,2025-04-21T19:14:00+00:00,landed,37.0,6.0,43.0,Delayed
+2025-04-21,BJ521,Charles De Gaulle,2025-04-21T22:05:00+00:00,Carthage,2025-04-22T01:00:00+00:00,scheduled,116.0,85.0,201.0,Delayed
+2025-04-21,BJ4001,Carthage,2025-04-21T09:30:00+00:00,Houari Boumediene,2025-04-21T11:04:00+00:00,landed,33.0,15.0,48.0,Delayed
+2025-04-21,BJ587,Cote D'azur International Airport,2025-04-21T15:55:00+00:00,Carthage,2025-04-21T18:27:00+00:00,scheduled,139.0,117.0,256.0,Delayed
+2025-04-21,BJ715,Blagnac,2025-04-21T09:50:00+00:00,Carthage,2025-04-21T11:04:00+00:00,landed,37.0,21.0,58.0,Delayed
+2025-04-21,BJ233,Berlin Brandenburg Airport,2025-04-21T16:20:00+00:00,Carthage,2025-04-21T18:50:00+00:00,scheduled,63.0,45.0,108.0,Delayed
+2025-04-21,BJ612,Carthage,2025-04-21T19:15:00+00:00,Guglielmo Marconi,2025-04-21T22:26:00+00:00,landed,49.0,25.0,74.0,Delayed
+2025-04-21,BJ516,Carthage,2025-04-21T19:00:00+00:00,Marseille Provence Airport,2025-04-21T22:56:00+00:00,scheduled,75.0,76.0,151.0,Delayed
+2025-04-21,BJ641,Istanbul Airport,2025-04-21T17:35:00+00:00,Carthage,2025-04-21T18:35:00+00:00,landed,40.0,3.0,43.0,Delayed
