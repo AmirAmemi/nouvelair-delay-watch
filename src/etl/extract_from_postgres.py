@@ -1,11 +1,11 @@
-# src/etl/load_to_postgres.py
+# src/etl/extract_from_postgres.py
 
 import pandas as pd
 from sqlalchemy import create_engine
 from dotenv import load_dotenv
 import os
 
-def load_to_postgres(df, table_name='raw_flight_data'):
+def extract_from_postgres(sql):
     load_dotenv()
     DB_USER = os.getenv("POSTGRES_USER")
     DB_PASSWORD = os.getenv("POSTGRES_PASSWORD")
@@ -14,6 +14,6 @@ def load_to_postgres(df, table_name='raw_flight_data'):
     DB_NAME = os.getenv("POSTGRES_DB")
 
     engine = create_engine(f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}")
-    with engine.begin() as connection:
-        df.to_sql(table_name, connection, if_exists='replace', index=False, method='multi')
-    print(f"✅ Data loaded into PostgreSQL table: {table_name}")
+    with engine.connect() as conn:
+        df = pd.read_sql(sql, conn)
+    return df

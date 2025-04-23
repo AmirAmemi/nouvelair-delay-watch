@@ -1,41 +1,83 @@
 import pandas as pd
 import json
 from datetime import datetime
+from dotenv import load_dotenv
+import os
+# from load_to_postgres import load_to_postgres  # make sure the path is correct
+# from fetch_nouvelair_data import NouvelairDataFetcher
 
-def load_raw_data(filename):
-    
-    with open(filename,'r') as file :
-        return json.load(file)
-file = f"data/raw_flights_{datetime.today().strftime('%Y-%m-%d')}.json"
-raw_data = load_raw_data(file)
+def clean_flight_data(df):
+    # with open(file_path, 'r') as file:
+    #     raw_data = json.load(file)
 
-df = pd.json_normalize(raw_data['data'])
+    # df = pd.json_normalize(raw_data['data'])
 
-# Columns we need
-relevant_columns = [
-    'flight_status','flight_date', 'flight.iata', 'departure.airport', 'departure.estimated', 
-    'arrival.airport', 'arrival.estimated', 'flight_status', 'departure.delay', 'arrival.delay'
-]
+    # Map and rename relevant columns
+    column_mapping = {
+        # 'flight_status': 'flight_status',
+        'flight.iata': 'flight_iata',
+        'flight_date': 'flight_date',
+        'departure.airport': 'departure_airport',
+        'departure.scheduled' : 'departure_scheduled' ,
+        'departure.estimated': 'departure_estimated',
+        'departure.actual': 'departure_actual',
+        'departure.delay': 'departure_delay',
+        'arrival.airport': 'arrival_airport',
+        'arrival.scheduled' : 'arrival_scheduled' ,
+        'arrival.estimated': 'arrival_estimated',
+        'arrival.actual': 'arrival_actual',
+        'arrival.delay': 'arrival_delay',
+        'live.updated' : 'live_updated'
+    }
+    df_cleaned = df[list(column_mapping.keys())].rename(columns=column_mapping)
 
-# Keep only relevant columns
-df_cleaned = df[relevant_columns]
+    # Drop rows with missing delay values
+    df_cleaned = df_cleaned.dropna(subset=['departure_delay'])
+    df_cleaned = df_cleaned.dropna(subset=['arrival_delay'])
+    # df_cleaned = df_cleaned.dropna(subset=['flight_status'])
+    # df_cleaned['arrival_delay'] = df_cleaned['arrival_delay'].fillna(df_cleaned['departure_delay'])
+    # Convert delay fields to numeric
+    df_cleaned['departure_delay'] = pd.to_numeric(df_cleaned['departure_delay'], errors='coerce')
+    df_cleaned['arrival_delay'] = pd.to_numeric(df_cleaned['arrival_delay'], errors='coerce')
 
-# Drop rows with missing delay values
-df_cleaned = df_cleaned.dropna(subset=['departure.delay', 'arrival.delay'])
+    # Add computed columns
+    df_cleaned['total_delay'] = df_cleaned['departure_delay'] + df_cleaned['arrival_delay']
+    df_cleaned['delay_status'] = df_cleaned['total_delay'].apply(lambda x: 'Delayed' if x > 0 else 'On-time')
 
-# Convert delay columns to numeric values (if they are not already)
-df_cleaned['departure.delay'] = pd.to_numeric(df_cleaned['departure.delay'], errors='coerce')
-df_cleaned['arrival.delay'] = pd.to_numeric(df_cleaned['arrival.delay'], errors='coerce')
+    # # Convert delay columns to numeric first
+    # df_cleaned['departure_delay'] = pd.to_numeric(df_cleaned['departure_delay'], errors='coerce')
+    # df_cleaned['arrival_delay']   = pd.to_numeric(df_cleaned['arrival_delay'],   errors='coerce')
 
-# Calculate total delay
-df_cleaned['total.delay'] = df_cleaned['departure.delay'] + df_cleaned['arrival.delay']
+    # # Keep‑mask:   keep if (status == 'cancelled')  OR  (at least one delay present)
+    # mask_keep = (
+    #     (df_cleaned['flight_status'].str.lower() == 'cancelled') |  
+    #     df_cleaned[['departure_delay', 'arrival_delay']].notna().any(axis=1)
+    # )
 
-# Add a delay status column
-df_cleaned['delay.status'] = df_cleaned['total.delay'].apply(lambda x: 'Delayed' if x > 0 else 'On-time')
+    # # Apply the mask
+    # df_cleaned = df_cleaned[~mask_keep].copy()
 
-# Save cleaned data to CSV
-df_cleaned.to_csv(f'data/cleaned_flights_{datetime.today().strftime("%Y-%m-%d")}.csv', index=False)
+    # # Fill arrival_delay with departure_delay if arrival missing (optional)
+    # # df_cleaned['arrival_delay'] = df_cleaned['arrival_delay'].fillna(df_cleaned['departure_delay'])
 
-# Optionally, save as a JSON file
-df_cleaned.to_json(f'data/cleaned_flights_{datetime.today().strftime("%Y-%m-%d")}.json', orient='records', lines=True)
+    # # Total delay (treat NaNs as 0 for cancelled flights)
+    # df_cleaned['total_delay'] = df_cleaned[['departure_delay', 'arrival_delay']].fillna(0).sum(axis=1)
 
+    # # Delay status
+    # df_cleaned['delay_status'] = df_cleaned['total_delay'].apply(
+    #     lambda x: 'Cancelled' if pd.isna(x) else ('Delayed' if x > 0 else 'On‑time')
+    # )
+
+    return df_cleaned
+
+def status_delay_data(df) :
+    # Map and rename relevant columns
+    column_mapping = {
+        'flight.iata': 'flight_iata',
+        'flight_date': 'flight_date',
+        'flight_status': 'flight_status'
+    }
+    df_cleaned = df[list(column_mapping.keys())].rename(columns=column_mapping)
+    df_cleaned = df_cleaned.dropna(subset=['flight_status'])
+
+    return df_cleaned
