@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 from sqlalchemy import create_engine
 from dotenv import load_dotenv
+from datetime import datetime
 import os
 import time
 
@@ -23,14 +24,15 @@ class NouvelairDataFetcher:
         data = response.json()
         if 'data' in data:
             df = pd.json_normalize(data['data'])
+            df = df[df["flight_date"] == datetime.today().strftime('%Y-%m-%d')]
             return df
         else:
             raise ValueError("Invalid API response structure")
 
 
 
-module = NouvelairDataFetcher()
+# module = NouvelairDataFetcher()
 
-data = module.fetch_data()
-print(data.columns)
+# data = module.fetch_data()
+# print(data.columns)
 # load_to_postgres(data)

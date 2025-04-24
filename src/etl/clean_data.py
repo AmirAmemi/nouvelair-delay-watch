@@ -1,16 +1,6 @@
 import pandas as pd
-import json
-from datetime import datetime
-from dotenv import load_dotenv
-import os
-# from load_to_postgres import load_to_postgres  # make sure the path is correct
-# from fetch_nouvelair_data import NouvelairDataFetcher
 
 def clean_flight_data(df):
-    # with open(file_path, 'r') as file:
-    #     raw_data = json.load(file)
-
-    # df = pd.json_normalize(raw_data['data'])
 
     # Map and rename relevant columns
     column_mapping = {
@@ -34,8 +24,8 @@ def clean_flight_data(df):
     # Drop rows with missing delay values
     df_cleaned = df_cleaned.dropna(subset=['departure_delay'])
     df_cleaned = df_cleaned.dropna(subset=['arrival_delay'])
-    # df_cleaned = df_cleaned.dropna(subset=['flight_status'])
-    # df_cleaned['arrival_delay'] = df_cleaned['arrival_delay'].fillna(df_cleaned['departure_delay'])
+
+    
     # Convert delay fields to numeric
     df_cleaned['departure_delay'] = pd.to_numeric(df_cleaned['departure_delay'], errors='coerce')
     df_cleaned['arrival_delay'] = pd.to_numeric(df_cleaned['arrival_delay'], errors='coerce')
@@ -43,30 +33,6 @@ def clean_flight_data(df):
     # Add computed columns
     df_cleaned['total_delay'] = df_cleaned['departure_delay'] + df_cleaned['arrival_delay']
     df_cleaned['delay_status'] = df_cleaned['total_delay'].apply(lambda x: 'Delayed' if x > 0 else 'On-time')
-
-    # # Convert delay columns to numeric first
-    # df_cleaned['departure_delay'] = pd.to_numeric(df_cleaned['departure_delay'], errors='coerce')
-    # df_cleaned['arrival_delay']   = pd.to_numeric(df_cleaned['arrival_delay'],   errors='coerce')
-
-    # # Keep‑mask:   keep if (status == 'cancelled')  OR  (at least one delay present)
-    # mask_keep = (
-    #     (df_cleaned['flight_status'].str.lower() == 'cancelled') |  
-    #     df_cleaned[['departure_delay', 'arrival_delay']].notna().any(axis=1)
-    # )
-
-    # # Apply the mask
-    # df_cleaned = df_cleaned[~mask_keep].copy()
-
-    # # Fill arrival_delay with departure_delay if arrival missing (optional)
-    # # df_cleaned['arrival_delay'] = df_cleaned['arrival_delay'].fillna(df_cleaned['departure_delay'])
-
-    # # Total delay (treat NaNs as 0 for cancelled flights)
-    # df_cleaned['total_delay'] = df_cleaned[['departure_delay', 'arrival_delay']].fillna(0).sum(axis=1)
-
-    # # Delay status
-    # df_cleaned['delay_status'] = df_cleaned['total_delay'].apply(
-    #     lambda x: 'Cancelled' if pd.isna(x) else ('Delayed' if x > 0 else 'On‑time')
-    # )
 
     return df_cleaned
 
@@ -79,5 +45,40 @@ def status_delay_data(df) :
     }
     df_cleaned = df[list(column_mapping.keys())].rename(columns=column_mapping)
     df_cleaned = df_cleaned.dropna(subset=['flight_status'])
+    df_cleaned['flight_status'] = df_cleaned['flight_status'].str.lower()
+
 
     return df_cleaned
+
+def avg_dep_data(df):
+    
+    df_cleaned =df
+    #  Ensure datetime dtype
+    df_cleaned['departure_scheduled'] = pd.to_datetime(df_cleaned['departure_scheduled'])
+    df_cleaned['arrival_scheduled']   = pd.to_datetime(df_cleaned['arrival_scheduled'])
+
+    # Extract the hour (0‑23)
+    df_cleaned['dep_hour'] = df_cleaned['departure_scheduled'].dt.hour
+    df_cleaned['arr_hour'] = df_cleaned['arrival_scheduled'].dt.hour
+
+    #Group‑by hour and compute the average delay (in minutes)
+    avg_dep = df_cleaned.groupby('dep_hour')['departure_delay'].mean()
+    avg_arr = df_cleaned.groupby('arr_hour')['arrival_delay'].mean()
+
+   
+    hours = pd.DataFrame({'hour': range(1,25)})
+
+    hourly_delays = (
+    hours
+      .merge(avg_dep.rename('avg_departure_delay'), left_on='hour', right_index=True, how='left')
+      .merge(avg_arr.rename('avg_arrival_delay'),   left_on='hour', right_index=True, how='left')
+      .fillna(0)
+      .astype({'hour': int,'avg_departure_delay':int,'avg_arrival_delay':int})
+      .sort_values('hour')
+      .reset_index(drop=True)
+                    )
+    return hourly_delays
+
+def most_delayed_routes(df):
+
+    return
