@@ -19,7 +19,9 @@ def clean_flight_data(df):
         'arrival.estimated': 'arrival_estimated',
         'arrival.actual': 'arrival_actual',
         'arrival.delay': 'arrival_delay',
-        'live.updated' : 'live_updated'
+        'live.updated' : 'live_updated',
+        'airline.name' : 'airline_name',
+        'flight.iata' : 'flight_iata'
     }
     df_cleaned = df[list(column_mapping.keys())].rename(columns=column_mapping)
 

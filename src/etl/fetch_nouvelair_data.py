@@ -24,7 +24,7 @@ class NouvelairDataFetcher:
         data = response.json()
         if 'data' in data:
             df = pd.json_normalize(data['data'])
-            df = df[df["flight_date"] == datetime.today().strftime('%Y-%m-%d')]
+            # df = df[df["flight_date"] == datetime.today().strftime('%Y-%m-%d')]
             return df
         else:
             raise ValueError("Invalid API response structure")
