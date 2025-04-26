@@ -109,7 +109,7 @@ def get_font_prop(font_name: str, size_font: int):
     return fm.FontProperties(fname=font_name, size=size_font)
 
 
-def ax_metadata(ax, title: str, font_prop):
+def ax_metadata(ax, title: str, font_prop,):
     ax.set_facecolor("black")
     ax.set_title(title, fontproperties=font_prop, y=1.2, fontsize=12, color="white")
     ax.set_xlabel(None)
@@ -122,9 +122,10 @@ def ax_metadata(ax, title: str, font_prop):
     ax.tick_params(axis="x", colors="white")
 
 
-def plot_hourly_avg_delays(df, font_path):
+def plot_hourly_avg_delays(df, font_path,output_path):
+# def plot_hourly_avg_delays(df, font_path):
     font_prop = get_font_prop(font_path, 10)
-    fig, ax = plt.subplots(facecolor="black", figsize=(18, 4))
+    fig, ax = plt.subplots(facecolor="black", figsize=(12, 2))
 
     df_sorted = df.sort_values(by='hour')
     
@@ -144,21 +145,24 @@ def plot_hourly_avg_delays(df, font_path):
 
     ax_metadata(ax, "Average Hourly Delays", font_prop)
     ax.legend(facecolor="black", labelcolor="white", prop=font_prop)
-    plt.show()
+    plt.savefig(output_path)
+    # plt.show()
 
 
-def plot_top_delayed_routes(result, font_path):
+# def plot_top_delayed_routes(result, font_path):
+def plot_top_delayed_routes(result, font_path,output_path):
     font_prop = get_font_prop(font_path, 10)
-    fig, ax = plt.subplots(facecolor="black", figsize=(18, 4))
+    fig, ax = plt.subplots(facecolor="black", figsize=(10, 2))
 
     routes = [f"{dep} → {arr}" for dep, arr in result.index]
     ax.bar(routes, result.values,width = 0.2, color='#4175d4')
-    ax.set_xticklabels(routes, ha='right')
+    ax.set_xticklabels(routes, ha='center')
 
     ax.set_ylabel("Average Departure Delay (minutes)", fontsize=12, color="white")
     ax_metadata(ax, "Top 10 Most Delayed Routes", font_prop)
     plt.tight_layout()
-    plt.show()
+    plt.savefig(output_path)
+    # plt.show()
 
 # ---- Run all ----
 # if __name__ == "__main__":
