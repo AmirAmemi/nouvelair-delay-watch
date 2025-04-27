@@ -259,10 +259,11 @@ def generate_report_image(df,df_st,top_delay_path,hourly_delay_path, SKYFONT, ou
     draw.rounded_rectangle([(60, 160), (460, 225)], radius=15, outline='#447add', width=2)
     draw.rounded_rectangle([(580, 160), (970, 225)], radius=15, outline='#447add', width=2)
 
-    draw.text((350,695),"MADE BY: ",font=ImageFont.truetype(SKYFONT, size=14),fill="white")
+    draw.text((350,695),"CREATED BY: ",font=ImageFont.truetype(SKYFONT, size=14),fill="white")
     draw.text((470,695),"AMIR AMEMI ",font=ImageFont.truetype(SKYFONT, size=14),fill="#447add")
     report_img.save(output_path)
     print(f"Report saved as {output_path}")
+    return output_path,worst_flight
 
 # Example usage:
 # df = pd.read_csv("your_clean_dataframe.csv")

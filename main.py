@@ -6,6 +6,9 @@ from src.etl.load_to_postgres import load_to_postgres
 from src.etl.extract_from_postgres import extract_from_postgres
 from src.analysis.analyze_delays import flight_status_distribution,top_delayed_routes, plot_hourly_avg_delays,plot_top_delayed_routes
 from src.analysis.image_analyze import generate_report_image
+from src.post.post_to_LinkedIn import post_to_linkedin
+from src.post.generate_post import generate_post_text,upload_linkedin_image
+from src.post.post_to_discord import post_to_discord
 from datetime import datetime
 import os
 
@@ -34,7 +37,7 @@ if __name__ == "__main__":
     df_status_cleaned = status_delay_data(data)
     df_avg_data = avg_dep_data(df_cleaned)
     # print(avg_dep_data(data))
-    print(df_cleaned)
+    # print(df_cleaned)
     load_to_postgres(df_cleaned, table_name_cleaned)
     load_to_postgres(df_status_cleaned,table_status)
     load_to_postgres(df_avg_data,table_avg)
@@ -54,4 +57,8 @@ if __name__ == "__main__":
     # plot_top_delayed_routes(df_cleaned,10,top_delay_path)
     plot_hourly_avg_delays(df_avg_data,SKYFONT,hourly_delay_path)
     # plot_hourly_avg_delays(df_avg_data,SKYFONT,hourly_delay_path)
-    generate_report_image(df_cleaned,df_status_cleaned,top_delay_path,hourly_delay_path,SKYFONT)
+    path_image,worst_flight = generate_report_image(df_cleaned,df_status_cleaned,top_delay_path,hourly_delay_path,SKYFONT)
+    text = generate_post_text(df_cleaned,worst_flight)
+    # asset = upload_linkedin_image(path_image)
+    # post_to_linkedin(asset,              text)
+    post_to_discord(text,path_image)
