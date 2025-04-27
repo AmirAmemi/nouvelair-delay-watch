@@ -38,7 +38,10 @@ if __name__ == "__main__":
     load_to_postgres(df_cleaned, table_name_cleaned)
     load_to_postgres(df_status_cleaned,table_status)
     load_to_postgres(df_avg_data,table_avg)
+
     SKYFONT = path_dir("src/fonts/LEDBDREV.TTF")
+    SKYFONT_INVERTED = path_dir("src/fonts/LEDBOARD.TTF")
+    GLYPH_AIRPORT = path_dir("src/fonts/GlyphyxOneNF.ttf")
     # # print(df_status_cleaned.columns)
     # # print(top_delayed_routes(df_cleaned))
     # plot_hourly_avg_delays(df_avg_data,SKYFONT)
@@ -51,4 +54,4 @@ if __name__ == "__main__":
     # plot_top_delayed_routes(df_cleaned,10,top_delay_path)
     plot_hourly_avg_delays(df_avg_data,SKYFONT,hourly_delay_path)
     # plot_hourly_avg_delays(df_avg_data,SKYFONT,hourly_delay_path)
-    generate_report_image(df_cleaned,df_status_cleaned,top_delay_path,hourly_delay_path)
+    generate_report_image(df_cleaned,df_status_cleaned,top_delay_path,hourly_delay_path,SKYFONT)
