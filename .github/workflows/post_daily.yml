@@ -2,7 +2,7 @@ name: Post Nouvelair Report Daily
 
 on:
   schedule:
-    - cron: '0 11 * * *'  # Everyday at 13:00 Germany Time (CET is UTC+2 now in Summer)
+    - cron: '8 14 * * *'  # Everyday at 13:00 Germany Time (CET is UTC+2 now in Summer)
   workflow_dispatch:  # Allow manual trigger
 
 jobs:

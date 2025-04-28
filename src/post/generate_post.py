@@ -17,7 +17,7 @@ def generate_post_text(df_cleaned,worst_flight):
     sum_arr = df_cleaned[df_cleaned["arrival_delay"] > 0].count()
     text = (
         f". \n\n✈️ #Nouvelair Flight Delay Report\n\n"
-        f"📅 Date: {datetime.today().strftime('%Y-%m-%d')} "
+        f"📅 Date: {datetime.today().strftime('%Y-%m-%d')} \n"
         f"Total Delays :  \n"
         f"{sum_dep['departure_delay']} #DelayedDepartures\n"
         f"{sum_arr['arrival_delay']} #DelayedArrivals \n\n"
