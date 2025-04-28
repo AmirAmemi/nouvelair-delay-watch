@@ -13,6 +13,9 @@ from src.analysis.analyze_delays import top_delayed_routes, plot_hourly_avg_dela
 from src.analysis.image_analyze import generate_report_image
 from src.post.generate_post import generate_post_text
 from src.post.post_to_discord import post_to_discord
+from src.post.post_to_X import post_to_x
+
+
 
 # ========== ⚙️ CONFIGURATION ==========
 
@@ -76,8 +79,8 @@ if __name__ == "__main__":
     print("📊 Analyzing data and generating plots...")
     data_routes = top_delayed_routes(df_cleaned, top_n=10)
 
-    top_delay_path = "top_delay_plot.png"
-    hourly_delay_path = "hourly_delay_plot.png"
+    top_delay_path = "dashboard/top_delay_plot.png"
+    hourly_delay_path = "dashboard/hourly_delay_plot.png"
     plot_top_delayed_routes(data_routes, SKYFONT, top_delay_path)
     plot_hourly_avg_delays(df_avg_data, SKYFONT, hourly_delay_path)
 
@@ -95,5 +98,7 @@ if __name__ == "__main__":
     print("✉️ Generating post text and publishing to Discord...")
     text = generate_post_text(df_cleaned, worst_flight)
     post_to_discord(text, path_image)
+    
+
 
     print("✅ Daily report generation and posting completed!")

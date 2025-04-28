@@ -2,8 +2,8 @@ name: Post Nouvelair Report Daily
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Everyday at 13:00 Germany Time (CET is UTC+2 now in Summer)
-  workflow_dispatch:  # Allow manual trigger
+    - cron: '0 10 * * *'  
+  workflow_dispatch:  
 
 jobs:
   build:
@@ -30,5 +30,9 @@ jobs:
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
           PAGE_ID: ${{ secrets.PAGE_ID }}
           webhook_url: ${{ secrets.WEBHOOK_URL }}
+          X_API_KEY: ${{secrets.X_API_KEY}}
+          X_API_SECRET: ${{secrets.X_API_SECRET}}
+          X_ACCESS_TOKEN: ${{secrets.X_ACCESS_TOKEN}}
+          X_ACCESS_TOKEN_SECRET: ${{secrets.X_ACCESS_TOKEN_SECRET}}
         run: |
           python main.py    

@@ -1,1 +1,4 @@
 .env
+data/*.csv
+__pycache__/
+notebooks/*

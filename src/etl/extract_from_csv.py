@@ -3,7 +3,7 @@
 import os
 import pandas as pd
 
-def extract_data_from_csv(file_path):
+def extract_data_from_csv(table_name):
     """
     Extract data from a CSV file inside the /data/ folder.
 
@@ -14,7 +14,7 @@ def extract_data_from_csv(file_path):
         pd.DataFrame: The loaded dataframe.
     """
     # Define folder and file path
-    
+    file_path = f"data/{table_name}.csv"
 
     # Check if file exists
     if not os.path.exists(file_path):

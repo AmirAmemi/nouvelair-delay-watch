@@ -64,7 +64,7 @@ def past_titles(report,SKYFONT, datetime_query):
     )
     return report
 
-def generate_report_image(df,df_st,top_delay_path,hourly_delay_path, SKYFONT, output_path="final_report.png"):
+def generate_report_image(df,df_st,top_delay_path,hourly_delay_path, SKYFONT, output_path="dashboard/final_report.png"):
     # Create the main white background
     report_img = Image.new("RGB", (1080, 720), color="black")
 

@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-def save_data_to_csv(data, path):
+def save_data_to_csv(data, table_name):
     """
     Save a Pandas DataFrame to a CSV file.
 
@@ -13,7 +13,7 @@ def save_data_to_csv(data, path):
     Returns:
         None
     """
-    # path = f"data/{table_name}"
+    path = f"data/{table_name}.csv"
     # Save to CSV
     data.to_csv(path, index=False)
     print(f"✅ Data saved successfully to {path}")
