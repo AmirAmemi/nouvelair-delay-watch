@@ -24,7 +24,7 @@ Total Delays :
 
 🌍#Tunisia #Nouvelair #FlightData #AirlinePerformance #DataEngineer #DataAnalyst
 
-![Nouvelair Daily Report](./dashboard/final_report.png)
+![Nouvelair Daily Report Example](.dashboard/final_report.png) 
 
 ---
 
@@ -168,7 +168,7 @@ Feel free to connect, collaborate, or suggest improvements!
 
 **Project created and maintained by ****[Amir Amemi](https://www.amemi.de)**
 
-Design inspired by real-world flight information displays to maintain an authentic aviation feeling. and Credits to [Skander Boudawara](https://github.com/skanderboudawara) for inspiration and ideas. 
+Design inspired by real-world flight information displays to maintain an authentic aviation feeling. and Credits to [Skander Boudawara](https://github.com/skanderboudawara) for inspiration and ideas.
 
 ---
 
