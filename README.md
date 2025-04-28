@@ -26,7 +26,6 @@ Total Delays :
 
 🌍#Tunisia #Nouvelair #FlightData #AirlinePerformance #DataEngineer #DataAnalyst
 
-![1745859877911](image/README/1745859877911.png)
 
 ---
 
@@ -156,8 +155,6 @@ The `<span>post_daily.yml</span>` is scheduled to run **daily at 10:00 UTC (12:0
 
 ---
 
-
-
 ## 🙋 Contact Me
 
 * 🔗 [LinkedIn](https://www.linkedin.com/in/amemi-amir/)
@@ -176,14 +173,15 @@ Design inspired by real-world flight information displays to maintain an authent
 
 ---
 
-
-
 ## 💎 License
 
 This project is licensed under the **MIT License**.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
+
+[![Discord](https://img.shields.io/discord/1234567890123456789?label=Discord&logo=discord&style=flat-square)](https://discord.gg/n2vmB4Yshk)
 
 ---
 
