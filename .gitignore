@@ -1,4 +1,4 @@
 .env
-data/*.csv
+data/
 __pycache__/
 notebooks/*
