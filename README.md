@@ -14,9 +14,7 @@ Designed to deliver real-time insights about delays, worst flights, and delay di
 
 ✈️ #Nouvelair Flight Delay Report
 
-📅
-
- Date: 2025-04-28
+📅Date: 2025-04-28
 Total Delays :
 42 #DelayedDepartures
 42 #DelayedArrivals
@@ -26,7 +24,7 @@ Total Delays :
 
 🌍#Tunisia #Nouvelair #FlightData #AirlinePerformance #DataEngineer #DataAnalyst
 
-![Nouvelair Daily Report](final_report.png)
+![Nouvelair Daily Report](./dashboard/final_report.png)
 
 ---
 
@@ -170,7 +168,7 @@ Feel free to connect, collaborate, or suggest improvements!
 
 **Project created and maintained by ****[Amir Amemi](https://www.amemi.de)**
 
-Design inspired by real-world flight information displays to maintain an authentic aviation feeling.
+Design inspired by real-world flight information displays to maintain an authentic aviation feeling. and 
 
 ---
 
@@ -178,11 +176,8 @@ Design inspired by real-world flight information displays to maintain an authent
 
 This project is licensed under the **MIT License**.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
-
-[![Discord](https://img.shields.io/discord/1234567890123456789?label=Discord&logo=discord&style=flat-square)](https://discord.gg/n2vmB4Yshk)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+](LICENSE)
 
 ---
 
