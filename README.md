@@ -168,7 +168,7 @@ Feel free to connect, collaborate, or suggest improvements!
 
 **Project created and maintained by ****[Amir Amemi](https://www.amemi.de)**
 
-Design inspired by real-world flight information displays to maintain an authentic aviation feeling. and 
+Design inspired by real-world flight information displays to maintain an authentic aviation feeling. and Credits to [Skander Boudawara](https://github.com/skanderboudawara) for inspiration and ideas. 
 
 ---
 
