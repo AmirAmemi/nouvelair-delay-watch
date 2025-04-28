@@ -23,5 +23,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run the Nouvelair Delay Watch script
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+          LINKED_API_KEY: ${{ secrets.LINKED_API_KEY }}
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          PAGE_ID: ${{ secrets.PAGE_ID }}
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
         run: |
-          python main.py
+          python main.py    
