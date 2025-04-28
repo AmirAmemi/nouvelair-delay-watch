@@ -26,6 +26,7 @@ Total Delays :
 
 🌍#Tunisia #Nouvelair #FlightData #AirlinePerformance #DataEngineer #DataAnalyst
 
+![Nouvelair Daily Report](./
 
 ---
 
