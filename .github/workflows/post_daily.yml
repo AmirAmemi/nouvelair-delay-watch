@@ -29,6 +29,6 @@ jobs:
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
           PAGE_ID: ${{ secrets.PAGE_ID }}
-          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          webhook_url: ${{ secrets.WEBHOOK_URL }}
         run: |
           python main.py    
