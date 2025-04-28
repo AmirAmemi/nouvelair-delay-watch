@@ -5,4 +5,5 @@ __pycache__/
 !__pycache__/.gitkeep
 */__pycache__
 notebooks/*
-dashboard/  
+dashboard/*
+!dashboard/.gitkeep
