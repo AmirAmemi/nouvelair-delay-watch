@@ -1,0 +1,27 @@
+name: Post Nouvelair Report Daily
+
+on:
+  schedule:
+    - cron: '0 11 * * *'  # Everyday at 13:00 Germany Time (CET is UTC+2 now in Summer)
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run the Nouvelair Delay Watch script
+        run: |
+          python main.py
