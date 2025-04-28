@@ -3,4 +3,5 @@ data/*.csv
 !data/.gitkeep
 __pycache__/
 !__pycache__/.gitkeep
+*/__pycache__
 notebooks/*
