@@ -39,7 +39,7 @@ class NouvelairDataFetcher:
 
         response = requests.get(self.url, params=params)
         response.raise_for_status()
-
+        print(response)
         data = response.json()
 
         if 'data' in data:

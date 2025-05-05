@@ -50,6 +50,14 @@ if __name__ == "__main__":
     print("📥 Fetching Nouvelair flight data...")
     module = NouvelairDataFetcher()
     data_api = module.fetch_data()
+    data_api = module.fetch_data()
+    if data_api.empty:
+        text = "⚠️ No data to process. Exiting script."
+        print(text)
+        post_to_discord(text)
+        exit()
+
+    print(data_api)
 
     table_name_raw = f"raw_flight_data_{today_str}"
     save_or_upload_data(data_api, table_name_raw)
